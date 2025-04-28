@@ -41,3 +41,1563 @@
 2025-04-28 09:17:01,305 13384 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2025-04-28 09:17:01,651 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:17:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.016 0.000
 2025-04-28 09:17:01,915 13384 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2025-04-28 09:17:03,730 12452 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:17:03,730 12452 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:17:03,761 12452 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:17:04,327 12452 INFO ? odoo.modules.loading: 38 modules loaded in 0.57s, 0 queries (+0 extra) 
+2025-04-28 09:17:04,389 12452 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:17:04,389 12452 INFO ? odoo.modules.registry: Registry loaded in 0.692s 
+2025-04-28 09:17:04,389 12452 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:17:04,468 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:17:04] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.017 0.756
+2025-04-28 09:17:04,817 12452 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 09:18:01,014 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:18:01] "GET /linea/dashboard HTTP/1.1" 200 - 23 0.013 0.030
+2025-04-28 09:19:00,656 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:19:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.008
+2025-04-28 09:20:01,998 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:20:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.004 0.026
+2025-04-28 09:21:00,022 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:21:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.016
+2025-04-28 09:22:00,965 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:22:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.003 0.012
+2025-04-28 09:23:01,965 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:23:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.015
+2025-04-28 09:24:01,654 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:24:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.015
+2025-04-28 09:25:01,964 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:25:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.001
+2025-04-28 09:26:01,647 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:26:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:27:01,990 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:27:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.003 0.022
+2025-04-28 09:28:01,651 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:28:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.009
+2025-04-28 09:29:01,965 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:29:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.007 0.008
+2025-04-28 09:30:01,664 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:30:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.016
+2025-04-28 09:31:01,967 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:31:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.009
+2025-04-28 09:32:01,662 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:32:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.003 0.009
+2025-04-28 09:33:01,987 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:33:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.028
+2025-04-28 09:34:01,659 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.006
+2025-04-28 09:34:28,565 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) starting 
+2025-04-28 09:34:28,578 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) done in 0.013s 
+2025-04-28 09:34:28,580 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,582 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) completed 
+2025-04-28 09:34:28,587 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2025-04-28 09:34:28,590 12452 INFO dashboard odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2025-04-28 09:34:28,590 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) done in 0.003s 
+2025-04-28 09:34:28,592 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,593 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) completed 
+2025-04-28 09:34:28,597 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-04-28 09:34:28,599 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.003s 
+2025-04-28 09:34:28,601 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,602 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-04-28 09:34:28,606 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2025-04-28 09:34:28,608 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) done in 0.002s 
+2025-04-28 09:34:28,611 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,613 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) completed 
+2025-04-28 09:34:28,616 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2025-04-28 09:34:28,620 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) done in 0.005s 
+2025-04-28 09:34:28,622 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,623 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) completed 
+2025-04-28 09:34:28,627 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) starting 
+2025-04-28 09:34:28,630 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) done in 0.003s 
+2025-04-28 09:34:28,632 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,634 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) completed 
+2025-04-28 09:34:28,637 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-04-28 09:34:28,641 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.004s 
+2025-04-28 09:34:28,642 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,643 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-04-28 09:34:28,648 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-04-28 09:34:28,650 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.003s 
+2025-04-28 09:34:28,652 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,654 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-04-28 09:34:28,657 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (17) starting 
+2025-04-28 09:34:28,663 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (17) done in 0.006s 
+2025-04-28 09:34:28,665 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (17) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,667 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (17) completed 
+2025-04-28 09:34:28,670 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (19) starting 
+2025-04-28 09:34:28,674 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (19) done in 0.004s 
+2025-04-28 09:34:28,675 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (19) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,676 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (19) completed 
+2025-04-28 09:34:28,680 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-04-28 09:34:28,685 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.004s 
+2025-04-28 09:34:28,686 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,688 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-04-28 09:34:28,691 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) starting 
+2025-04-28 09:34:28,698 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) done in 0.007s 
+2025-04-28 09:34:28,699 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,701 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) completed 
+2025-04-28 09:34:28,704 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-04-28 09:34:28,706 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.002s 
+2025-04-28 09:34:28,708 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-04-28 09:34:28,709 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-04-28 09:34:33,382 10684 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:34:33,382 10684 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:34:33,382 10684 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:34:33,382 10684 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:34:33,541 10684 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:34:33,541 10684 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:34:33,744 10684 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:34:33,776 10684 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:34:33,791 10684 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 09:34:33,807 10684 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 09:34:33,807 10684 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 09:34:34,739 10684 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:34:34,739 10684 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:34:35,262 10684 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 09:34:35,599 10684 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:34:35,807 10684 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 09:34:35,868 10684 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 09:34:35,913 10684 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 09:34:35,913 10684 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 09:34:35,913 10684 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 09:34:35,929 10684 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 09:34:35,944 10684 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 09:34:35,976 10684 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 09:34:36,007 10684 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 09:34:36,023 10684 INFO dashboard odoo.modules.loading: Module linea loaded in 0.22s, 151 queries (+151 other) 
+2025-04-28 09:34:36,401 10684 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.80s, 151 queries (+151 extra) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,533 10684 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,566 10684 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:34:36,617 10684 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 09:34:36,924 10684 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 09:34:36,924 10684 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 09:34:36,932 10684 INFO dashboard odoo.modules.registry: Registry loaded in 3.188s 
+2025-04-28 09:34:38,067 12452 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 09:34:38,067 12452 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:34:38,085 12452 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 09:34:38,089 12452 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:34:38,114 12452 INFO ? odoo.modules.loading: 38 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-04-28 09:34:38,178 12452 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:34:38,181 12452 INFO ? odoo.modules.registry: Registry loaded in 0.114s 
+2025-04-28 09:34:38,181 12452 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:34:38,219 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-28 09:34:38,221 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-28 09:34:39,779 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:39] "GET /odoo/action-233 HTTP/1.1" 200 - 132 0.067 1.646
+2025-04-28 09:34:39,999 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:39] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.002 0.007
+2025-04-28 09:34:40,006 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.002
+2025-04-28 09:34:40,381 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-28 09:34:40,398 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.017 0.000
+2025-04-28 09:34:40,398 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "POST /mail/data HTTP/1.1" 200 - 27 0.017 0.000
+2025-04-28 09:34:40,944 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "POST /web/action/load HTTP/1.1" 200 - 11 0.007 0.306
+2025-04-28 09:34:40,949 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "POST /web/action/load HTTP/1.1" 200 - 11 0.012 0.571
+2025-04-28 09:34:40,972 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:40] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 24 0.016 0.003
+2025-04-28 09:34:41,283 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:41] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:34:41,283 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:41] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-28 09:34:41,949 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:41] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.014
+2025-04-28 09:34:42,783 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:42] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:34:43,032 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:43] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:34:46,165 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:34:46] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:35:01,680 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:01] "GET /linea/dashboard HTTP/1.1" 200 - 21 0.014 0.029
+2025-04-28 09:35:34,318 10684 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 09:35:34,318 10684 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:35:34,442 10684 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-28 09:35:36,451 11784 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:35:36,451 11784 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:35:36,452 11784 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:35:36,452 11784 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:35:39,757 9528 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:35:39,757 9528 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:35:39,757 9528 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:35:39,757 9528 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:35:39,897 9528 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:35:39,897 9528 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:35:40,085 9528 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:35:40,132 9528 INFO dashboardç odoo.modules.loading: init db 
+2025-04-28 09:35:43,984 12672 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:35:43,984 12672 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:35:43,984 12672 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:35:43,984 12672 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:35:44,116 12672 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:35:44,135 12672 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:35:44,332 12672 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:35:44,515 12672 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:35:44,515 12672 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:35:44,531 12672 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 09:35:44,531 12672 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 09:35:45,483 12672 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:35:45,483 12672 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:35:45,998 12672 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 09:35:46,315 12672 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:35:46,497 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:46] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.004 0.011
+2025-04-28 09:35:46,502 12672 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 09:35:46,570 12672 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 09:35:46,622 12672 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 09:35:46,622 12672 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 09:35:46,622 12672 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 09:35:46,654 12672 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 09:35:46,675 12672 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 09:35:46,686 12672 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 09:35:46,702 12672 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 09:35:46,710 12672 INFO dashboard odoo.modules.loading: Module linea loaded in 0.21s, 147 queries (+147 other) 
+2025-04-28 09:35:46,782 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.003
+2025-04-28 09:35:46,959 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:46] "POST /mail/data HTTP/1.1" 200 - 17 0.000 0.000
+2025-04-28 09:35:47,016 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.000 0.002
+2025-04-28 09:35:47,016 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.000 0.001
+2025-04-28 09:35:47,016 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.002
+2025-04-28 09:35:47,064 12672 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.75s, 147 queries (+147 extra) 
+2025-04-28 09:35:47,096 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:35:47,207 12672 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,207 12672 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,207 12672 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,207 12672 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,208 12672 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,208 12672 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,208 12672 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,208 12672 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,208 12672 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,240 12672 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:35:47,281 12672 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 09:35:47,348 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:35:47,348 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-04-28 09:35:47,590 12672 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 09:35:47,590 12672 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 09:35:47,590 12672 INFO dashboard odoo.modules.registry: Registry loaded in 3.258s 
+2025-04-28 09:35:47,716 12452 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 09:35:47,719 12452 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:35:47,725 12452 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-04-28 09:35:47,728 12452 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:35:47,756 12452 INFO ? odoo.modules.loading: 38 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-04-28 09:35:47,820 12452 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:35:47,822 12452 INFO ? odoo.modules.registry: Registry loaded in 0.106s 
+2025-04-28 09:35:47,823 12452 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:35:47,843 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:47] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.008 0.120
+2025-04-28 09:35:48,932 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:48] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:35:52,818 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 09:35:52,849 12452 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 09:35:52,899 12452 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 09:35:52,914 12452 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 09:35:52,915 12452 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:35:52,915 12452 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:35:52,933 12452 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 09:35:52,933 12452 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053] 
+2025-04-28 09:35:53,019 12452 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 09:35:53,065 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:35:53] "GET /linea/dashboard HTTP/1.1" 200 - 23 0.024 0.038
+2025-04-28 09:35:53,065 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.247s 
+2025-04-28 09:35:53,081 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 09:35:53,083 12452 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 09:36:00,656 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-28 09:36:03,640 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:03] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2025-04-28 09:36:03,981 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:03] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 29 0.000 0.016
+2025-04-28 09:36:04,231 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:04] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.004 0.011
+2025-04-28 09:36:04,723 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:04] "POST /web/dataset/call_kw/linea/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-28 09:36:12,482 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:12] "POST /web/dataset/call_kw/linea/web_save HTTP/1.1" 200 - 4 0.000 0.000
+2025-04-28 09:36:13,687 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:13] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.002 0.002
+2025-04-28 09:36:15,717 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-28 09:36:15,732 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-28 09:36:16,426 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "GET /odoo/action-247 HTTP/1.1" 200 - 103 0.051 0.658
+2025-04-28 09:36:16,508 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.003 0.007
+2025-04-28 09:36:16,513 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.001 0.006
+2025-04-28 09:36:16,932 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "POST /web/action/load HTTP/1.1" 200 - 9 0.033 0.034
+2025-04-28 09:36:16,932 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.065 0.002
+2025-04-28 09:36:16,932 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "POST /mail/data HTTP/1.1" 200 - 27 0.049 0.018
+2025-04-28 09:36:16,952 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:16] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.053
+2025-04-28 09:36:17,148 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:17] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 18 0.016 0.000
+2025-04-28 09:36:17,276 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:17] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:36:17,468 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:17] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:36:18,753 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:18] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-04-28 09:36:22,167 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:22] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.001
+2025-04-28 09:36:24,550 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:24] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.000 0.017
+2025-04-28 09:36:24,634 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:24] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.004
+2025-04-28 09:36:24,940 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:24] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:36:25,013 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:36:25,028 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.000 0.031
+2025-04-28 09:36:25,036 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "POST /mail/data HTTP/1.1" 200 - 17 0.021 0.018
+2025-04-28 09:36:25,204 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.010
+2025-04-28 09:36:25,265 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.013
+2025-04-28 09:36:25,333 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-04-28 09:36:25,656 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:25] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-28 09:36:26,665 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:36:26] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.014
+2025-04-28 09:36:47,689 12672 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 09:36:47,724 12672 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 09:36:47,768 12672 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 09:36:47,768 12672 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 09:36:47,782 12672 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:36:47,782 12672 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:36:47,782 12672 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 09:36:47,801 12672 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1054, 1055] 
+2025-04-28 09:36:47,882 12672 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 09:36:47,918 12672 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.229s 
+2025-04-28 09:36:47,919 12672 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 09:36:47,921 12672 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 09:36:49,892 12672 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 09:36:49,892 12672 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:36:50,190 12672 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 09:37:00,965 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:37:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.014
+2025-04-28 09:37:13,851 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:37:13] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.006
+2025-04-28 09:38:01,986 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:38:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.005 0.024
+2025-04-28 09:39:01,666 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:39:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.016
+2025-04-28 09:40:01,955 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:40:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.001
+2025-04-28 09:41:01,656 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:41:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.004 0.006
+2025-04-28 09:42:01,979 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:42:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.005 0.006
+2025-04-28 09:43:01,662 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:43:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.016
+2025-04-28 09:44:01,986 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:44:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.006 0.010
+2025-04-28 09:45:01,656 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:45:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.002 0.007
+2025-04-28 09:45:56,828 7308 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:45:56,828 7308 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:45:56,828 7308 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:45:56,828 7308 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:45:56,982 7308 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:45:56,997 7308 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:45:57,173 7308 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:45:57,204 7308 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:45:57,204 7308 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:45:57,235 7308 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 09:45:57,235 7308 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 09:45:58,131 7308 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:45:58,131 7308 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:45:58,614 7308 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 09:45:58,927 7308 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:45:59,099 7308 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 09:45:59,163 7308 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 09:45:59,210 7308 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 09:45:59,210 7308 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 09:45:59,210 7308 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 09:45:59,226 7308 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 09:45:59,241 7308 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 09:45:59,257 7308 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 09:45:59,273 7308 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 09:45:59,273 7308 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-28 09:45:59,616 7308 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.69s, 146 queries (+146 extra) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,744 7308 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,775 7308 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:45:59,806 7308 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 09:46:00,103 7308 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 09:46:00,103 7308 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 09:46:00,103 7308 INFO dashboard odoo.modules.registry: Registry loaded in 2.930s 
+2025-04-28 09:46:01,951 12452 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 09:46:01,951 12452 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:46:01,951 12452 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:46:01,951 12452 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:46:01,991 12452 INFO ? odoo.modules.loading: 38 modules loaded in 0.04s, 0 queries (+0 extra) 
+2025-04-28 09:46:02,053 12452 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:46:02,055 12452 INFO ? odoo.modules.registry: Registry loaded in 0.104s 
+2025-04-28 09:46:02,056 12452 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:46:02,191 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:02] "GET /linea/dashboard HTTP/1.1" 200 - 51 0.023 0.218
+2025-04-28 09:46:18,028 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-28 09:46:18,028 12452 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-28 09:46:18,717 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:18] "GET /odoo/action-247 HTTP/1.1" 200 - 104 0.024 0.681
+2025-04-28 09:46:18,956 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:18] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.003 0.010
+2025-04-28 09:46:19,287 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:19] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.016
+2025-04-28 09:46:19,561 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:19] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-28 09:46:19,635 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:19] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.002 0.012
+2025-04-28 09:46:19,882 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:19] "POST /mail/data HTTP/1.1" 200 - 27 0.002 0.013
+2025-04-28 09:46:20,882 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:20] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-04-28 09:46:24,873 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.008
+2025-04-28 09:46:25,205 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:25] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.016
+2025-04-28 09:46:25,540 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:25] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 24 0.005 0.018
+2025-04-28 09:46:25,780 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:25] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2025-04-28 09:46:25,850 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:46:26,050 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:26] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.006
+2025-04-28 09:46:26,382 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:26] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 21 0.016 0.001
+2025-04-28 09:46:26,629 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:26] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.003 0.009
+2025-04-28 09:46:27,609 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:27] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.002 0.002
+2025-04-28 09:46:28,916 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:28] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:46:29,723 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:29] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2025-04-28 09:46:31,900 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:31] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:46:32,852 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:32] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 2 0.001 0.017
+2025-04-28 09:46:35,432 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:35] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:46:39,150 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:39] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-28 09:46:42,067 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:42] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:46:43,516 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:43] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.015
+2025-04-28 09:46:50,001 12452 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [55] 
+2025-04-28 09:46:50,001 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:50] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 6 0.001 0.010
+2025-04-28 09:46:50,256 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:50] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.003 0.003
+2025-04-28 09:46:51,336 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:51] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2025-04-28 09:46:52,617 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:46:52] "POST /web/dataset/call_kw/linea/onchange HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:47:00,365 7308 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 09:47:00,400 7308 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 09:47:00,461 7308 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 09:47:00,467 7308 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 09:47:00,467 7308 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:47:00,467 7308 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:47:00,485 7308 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 09:47:00,493 7308 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1056, 1057, 1058, 1059, 1060, 1061] 
+2025-04-28 09:47:00,554 7308 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 09:47:00,597 7308 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.233s 
+2025-04-28 09:47:00,600 7308 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 09:47:00,602 7308 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 09:47:00,652 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.001
+2025-04-28 09:47:01,399 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:01] "POST /web/dataset/call_kw/linea/web_save HTTP/1.1" 200 - 4 0.000 0.014
+2025-04-28 09:47:03,733 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:03] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:47:04,576 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:04] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.003 0.003
+2025-04-28 09:47:08,335 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:08] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:47:10,917 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:10] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.000 0.019
+2025-04-28 09:47:11,161 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.004
+2025-04-28 09:47:11,477 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.005
+2025-04-28 09:47:11,566 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.032
+2025-04-28 09:47:11,586 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "POST /mail/data HTTP/1.1" 200 - 17 0.017 0.035
+2025-04-28 09:47:11,587 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.049
+2025-04-28 09:47:11,717 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:47:11,783 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:47:11,915 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:11] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.016
+2025-04-28 09:47:12,240 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:12] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-28 09:47:13,263 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:47:13] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.010
+2025-04-28 09:48:00,999 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:48:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.006 0.022
+2025-04-28 09:49:00,660 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:49:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.005 0.006
+2025-04-28 09:50:01,995 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:50:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.009 0.022
+2025-04-28 09:51:00,659 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:51:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-28 09:52:01,981 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:52:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.007 0.021
+2025-04-28 09:53:01,671 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:53:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.019
+2025-04-28 09:54:01,985 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:54:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.015 0.001
+2025-04-28 09:55:01,669 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.003 0.008
+2025-04-28 09:55:08,097 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.007 0.022
+2025-04-28 09:55:08,327 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.006
+2025-04-28 09:55:08,354 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.004
+2025-04-28 09:55:08,733 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.034 0.001
+2025-04-28 09:55:08,733 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "POST /web/action/load HTTP/1.1" 200 - 9 0.001 0.034
+2025-04-28 09:55:08,749 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "POST /mail/data HTTP/1.1" 200 - 17 0.016 0.035
+2025-04-28 09:55:08,750 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.017 0.016
+2025-04-28 09:55:08,965 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:08] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:55:09,078 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:09] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:55:09,284 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:09] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:55:10,576 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:10] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.016
+2025-04-28 09:55:14,152 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:55:14] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.001 0.015
+2025-04-28 09:56:00,677 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:56:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.004 0.008
+2025-04-28 09:57:01,991 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:57:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.009 0.022
+2025-04-28 09:57:49,137 7308 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 09:57:49,137 7308 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:57:49,248 7308 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-28 09:57:51,177 1736 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:57:51,178 1736 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:57:51,178 1736 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:57:51,178 1736 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:57:51,334 1736 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:57:51,334 1736 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:57:51,534 1736 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:57:51,567 1736 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:57:51,584 1736 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 09:57:51,600 1736 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 09:57:51,600 1736 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 09:57:52,569 1736 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:57:52,569 1736 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:57:53,148 1736 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 09:57:53,476 1736 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:57:53,648 1736 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 09:57:53,725 1736 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 09:57:53,795 1736 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 09:57:53,796 1736 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 09:57:53,796 1736 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 09:57:53,822 1736 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 09:57:53,834 1736 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 09:57:53,851 1736 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 09:57:53,883 1736 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 09:57:53,889 1736 INFO dashboard odoo.modules.loading: Module linea loaded in 0.24s, 146 queries (+146 other) 
+2025-04-28 09:57:54,352 1736 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.88s, 146 queries (+146 extra) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,518 1736 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,551 1736 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:57:54,584 1736 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 09:57:54,919 1736 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 09:57:54,919 1736 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 09:57:54,919 1736 INFO dashboard odoo.modules.registry: Registry loaded in 3.385s 
+2025-04-28 09:58:01,162 12452 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 09:58:01,162 12452 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:58:01,647 12452 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 09:58:01,647 12452 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:58:01,662 12452 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 09:58:01,667 12452 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:58:01,685 12452 INFO ? odoo.modules.loading: 38 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 09:58:01,752 12452 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:58:01,752 12452 INFO ? odoo.modules.registry: Registry loaded in 0.105s 
+2025-04-28 09:58:01,752 12452 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:58:01,818 12452 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:58:01] "GET /linea/dashboard HTTP/1.1" 200 - 51 0.017 0.154
+2025-04-28 09:58:02,210 12452 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2025-04-28 09:58:04,048 1736 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:58:04,079 1736 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:58:04] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.000 0.031
+2025-04-28 09:58:04,489 1736 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 09:58:05,459 12336 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:58:05,459 12336 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:58:05,459 12336 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:58:05,459 12336 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:58:05,583 12336 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:58:05,599 12336 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:58:05,833 12336 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:58:08,859 1736 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 64, in dashboard_view
+    total_registros = sum(
+                      ^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 65, in <genexpr>
+    registros_ordenados[hora][puesto] for hora in registros_ordenados for puesto in puestos
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'int' object is not subscriptable
+2025-04-28 09:58:08,859 1736 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:58:08] "GET /linea/dashboard HTTP/1.1" 500 - 19 0.011 0.031
+2025-04-28 09:58:55,150 1736 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 09:58:55,166 1736 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 09:58:55,213 1736 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 09:58:55,229 1736 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 09:58:55,229 1736 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:58:55,229 1736 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 09:58:55,244 1736 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 09:58:55,244 1736 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1062, 1063, 1064, 1065, 1066, 1067] 
+2025-04-28 09:58:55,307 1736 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 09:58:55,338 1736 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.188s 
+2025-04-28 09:58:55,354 1736 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 09:58:55,356 1736 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 09:59:18,834 1736 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 09:59:18,834 1736 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:59:19,316 1736 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 09:59:21,250 12336 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:59:21,250 12336 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:59:21,265 12336 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:59:21,691 10584 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:59:21,691 10584 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:59:21,691 10584 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:59:21,691 10584 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:59:21,939 12336 INFO ? odoo.modules.loading: 38 modules loaded in 0.67s, 0 queries (+0 extra) 
+2025-04-28 09:59:21,939 10584 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:59:21,956 10584 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:59:22,023 12336 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 09:59:22,023 12336 INFO ? odoo.modules.registry: Registry loaded in 0.805s 
+2025-04-28 09:59:22,023 12336 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:59:22,110 12336 INFO dashboard odoo.addons.base.models.res_device: User 2 inserts device log (-CNlOxeO4qr0tjRbpUH71nuKF_YvICp2dbp3Auh2X5) 
+2025-04-28 09:59:22,114 12336 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:59:22] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 24 0.021 0.875
+2025-04-28 09:59:22,195 10584 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:59:22,225 10584 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 09:59:22,225 10584 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 09:59:22,258 10584 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 09:59:22,259 10584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 09:59:22,456 12336 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 09:59:22,989 12336 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 09:59:22,989 12336 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:59:23,173 10584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:59:23,173 10584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 09:59:23,319 12336 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-28 09:59:23,771 10584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 09:59:24,098 10584 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 09:59:24,269 10584 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 09:59:24,316 10584 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 09:59:24,363 10584 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 09:59:24,363 10584 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 09:59:24,363 10584 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 09:59:24,379 10584 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 09:59:24,410 10584 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 09:59:24,410 10584 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 09:59:24,426 10584 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 09:59:24,442 10584 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-28 09:59:24,799 10584 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.70s, 146 queries (+146 extra) 
+2025-04-28 09:59:24,941 10584 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,942 10584 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,943 10584 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,943 10584 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:24,973 10584 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 09:59:25,016 10584 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 09:59:25,206 2780 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 09:59:25,206 2780 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 09:59:25,206 2780 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 09:59:25,206 2780 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 09:59:25,316 10584 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 09:59:25,319 10584 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 09:59:25,320 10584 INFO dashboard odoo.modules.registry: Registry loaded in 3.125s 
+2025-04-28 09:59:25,343 2780 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 09:59:25,351 2780 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 09:59:25,560 2780 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 09:59:25,774 10584 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 09:59:25,789 10584 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:59:25] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.013 0.017
+2025-04-28 09:59:26,137 10584 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 10:00:25,422 10584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:00:25,462 10584 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:00:25,496 10584 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:00:25,513 10584 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:00:25,513 10584 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2025-04-28 10:00:25,513 10584 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:00:25,530 10584 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:00:25,530 10584 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1068, 1069] 
+2025-04-28 10:00:25,597 10584 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:00:25,646 10584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.225s 
+2025-04-28 10:00:25,646 10584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:00:25,646 10584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:00:30,981 10584 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 44, in dashboard_view
+    for (hora, puesto), count in registros_ordenados.items():
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 10:00:30,981 10584 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:00:30] "GET /linea/dashboard HTTP/1.1" 500 - 18 0.028 0.037
+2025-04-28 10:00:40,810 2780 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:00:40,810 2780 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:00:41,112 2780 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-04-28 10:00:42,997 832 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:00:42,997 832 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:00:42,997 832 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:00:42,997 832 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:00:43,122 832 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:00:43,138 832 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:00:43,341 832 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:01:01,153 10584 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 44, in dashboard_view
+    for (hora, puesto), count in registros_ordenados.items():
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 10:01:01,153 10584 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:01] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.015 0.002
+2025-04-28 10:01:10,939 10584 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 10:01:10,940 10584 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:01:12,050 10584 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 10:01:13,305 832 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:01:13,322 832 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 10:01:13,341 832 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:01:13,925 832 INFO ? odoo.modules.loading: 38 modules loaded in 0.58s, 0 queries (+0 extra) 
+2025-04-28 10:01:14,003 832 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:01:14,003 832 INFO ? odoo.modules.registry: Registry loaded in 0.722s 
+2025-04-28 10:01:14,003 832 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:01:14,088 832 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:14] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.029 0.777
+2025-04-28 10:01:14,440 832 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 10:01:16,703 14092 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:01:16,703 14092 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:01:16,703 14092 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:01:16,703 14092 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:01:16,867 14092 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:01:16,883 14092 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:01:17,080 14092 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:01:17,111 14092 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:01:17,111 14092 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:01:17,127 14092 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:01:17,127 14092 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:01:18,013 14092 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:01:18,013 14092 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:01:18,536 14092 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:01:18,883 14092 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:01:19,086 14092 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:01:19,133 14092 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:01:19,180 14092 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:01:19,180 14092 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:01:19,180 14092 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:01:19,195 14092 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:01:19,227 14092 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:01:19,227 14092 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:01:19,243 14092 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:01:19,258 14092 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-28 10:01:19,631 14092 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.75s, 146 queries (+146 extra) 
+2025-04-28 10:01:19,776 14092 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,776 14092 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,776 14092 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,777 14092 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,810 14092 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:01:19,835 14092 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:01:20,157 14092 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:01:20,157 14092 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:01:20,157 14092 INFO dashboard odoo.modules.registry: Registry loaded in 3.077s 
+2025-04-28 10:01:20,876 832 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:01:20,876 832 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:01:20,985 832 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-28 10:01:22,921 14092 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:01:22,936 14092 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:22] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.000 0.017
+2025-04-28 10:01:23,004 10584 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 10:01:23,037 10584 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:01:23,037 10584 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:01:23,053 10584 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:01:23,070 10584 INFO ? odoo.modules.loading: 38 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 10:01:23,107 7284 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:01:23,107 7284 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:01:23,107 7284 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:01:23,107 7284 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:01:23,152 10584 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:01:23,154 10584 INFO ? odoo.modules.registry: Registry loaded in 0.150s 
+2025-04-28 10:01:23,154 10584 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:01:23,221 10584 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 44, in dashboard_view
+    for (hora, puesto), count in registros_ordenados.items():
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 10:01:23,221 10584 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:23] "GET /linea/dashboard HTTP/1.1" 500 - 46 0.077 0.154
+2025-04-28 10:01:23,244 7284 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:01:23,257 7284 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:01:23,288 14092 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 10:01:23,524 7284 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:01:24,038 14092 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 44, in dashboard_view
+    for (hora, puesto), count in registros_ordenados.items():
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 10:01:24,038 14092 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:24] "GET /linea/dashboard HTTP/1.1" 500 - 18 0.011 0.028
+2025-04-28 10:01:25,023 14092 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 44, in dashboard_view
+    for (hora, puesto), count in registros_ordenados.items():
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 10:01:25,023 14092 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:01:25] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.003 0.020
+2025-04-28 10:02:20,250 14092 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:02:20,282 14092 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:02:20,327 14092 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:02:20,327 14092 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:02:20,327 14092 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:02:20,327 14092 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:02:20,343 14092 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:02:20,358 14092 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1070, 1071, 1072, 1073] 
+2025-04-28 10:02:20,429 14092 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:02:20,463 14092 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.213s 
+2025-04-28 10:02:20,465 14092 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:02:20,466 14092 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:03:42,216 14092 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 10:03:42,218 14092 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:03:42,735 14092 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 10:03:44,491 8588 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:03:44,491 8588 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:03:44,491 8588 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:03:44,491 8588 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:03:44,647 8588 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:03:44,655 8588 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:03:44,835 8588 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:03:44,868 8588 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:03:44,868 8588 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:03:44,897 8588 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:03:44,899 8588 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:03:45,373 7284 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:03:45,373 7284 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:03:45,401 7284 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:03:45,769 8588 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:03:45,769 8588 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:03:45,949 7284 INFO ? odoo.modules.loading: 38 modules loaded in 0.55s, 0 queries (+0 extra) 
+2025-04-28 10:03:46,012 7284 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:03:46,012 7284 INFO ? odoo.modules.registry: Registry loaded in 0.671s 
+2025-04-28 10:03:46,012 7284 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:03:46,090 7284 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:03:46] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.032 0.717
+2025-04-28 10:03:46,287 8588 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:03:46,436 7284 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 10:03:46,608 8588 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:03:46,798 8588 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:03:46,845 8588 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:03:46,892 8588 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:03:46,892 8588 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:03:46,892 8588 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:03:46,923 8588 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:03:46,939 8588 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:03:46,939 8588 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:03:46,955 8588 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:03:46,972 8588 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-28 10:03:47,418 8588 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.81s, 146 queries (+146 extra) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,551 8588 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,583 8588 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:03:47,630 8588 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:03:47,935 8588 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:03:47,939 8588 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:03:47,939 8588 INFO dashboard odoo.modules.registry: Registry loaded in 3.104s 
+2025-04-28 10:03:49,126 7284 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:03:49,126 7284 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:03:49,463 7284 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-28 10:03:51,370 4084 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:03:51,370 4084 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:03:51,370 4084 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:03:51,370 4084 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:03:51,503 4084 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:03:51,503 4084 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:03:51,686 8588 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:03:51,720 4084 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:03:51,735 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    for puesto, count in puestos_dict.items():
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:03:51,735 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:03:51] "GET /linea/dashboard HTTP/1.1" 500 - 27 0.012 0.038
+2025-04-28 10:03:51,798 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:03:51] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.001 0.002
+2025-04-28 10:03:52,179 8588 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-28 10:04:07,952 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    ######### OBJETIVOS ##########
+                             ^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:04:07,954 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:04:07] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.018
+2025-04-28 10:04:48,022 8588 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:04:48,053 8588 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:04:48,100 8588 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:04:48,100 8588 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:04:48,116 8588 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:04:48,116 8588 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:04:48,116 8588 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:04:48,131 8588 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1074, 1075, 1076, 1077] 
+2025-04-28 10:04:48,194 8588 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:04:48,225 8588 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.203s 
+2025-04-28 10:04:48,225 8588 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:04:48,225 8588 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:09:14,286 4324 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:09:14,286 4324 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:09:14,286 4324 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:09:14,286 4324 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:09:14,428 4324 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:09:14,444 4324 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:09:14,646 4324 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:09:14,784 4324 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:09:14,789 4324 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:09:14,806 4324 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:09:14,809 4324 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:09:15,699 4324 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:09:15,699 4324 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:09:16,232 4324 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:09:16,550 4324 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:09:16,733 4324 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:09:16,783 4324 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:09:16,834 4324 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:09:16,834 4324 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:09:16,834 4324 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:09:16,853 4324 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:09:16,882 4324 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:09:16,889 4324 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:09:16,899 4324 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:09:16,899 4324 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-28 10:09:17,243 4324 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.69s, 146 queries (+146 extra) 
+2025-04-28 10:09:17,389 4324 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,390 4324 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,419 4324 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:09:17,452 4324 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:09:17,543 4084 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:09:17,543 4084 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:09:17,766 4324 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:09:17,772 4324 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:09:17,772 4324 INFO dashboard odoo.modules.registry: Registry loaded in 3.125s 
+2025-04-28 10:09:17,918 4084 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-04-28 10:09:19,785 4708 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:09:19,785 4708 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:09:19,785 4708 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:09:19,785 4708 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:09:19,921 4708 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:09:19,928 4708 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:09:20,172 4708 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:09:21,233 8588 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 10:09:21,248 8588 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:09:21,252 8588 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:09:21,256 8588 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:09:21,284 8588 INFO ? odoo.modules.loading: 38 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-04-28 10:09:21,349 8588 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:09:21,350 8588 INFO ? odoo.modules.registry: Registry loaded in 0.116s 
+2025-04-28 10:09:21,350 8588 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:09:21,400 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    objetivos_records = request.env['objetivos'].sudo().search([
+                             ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:09:21,400 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:21] "GET /linea/dashboard HTTP/1.1" 500 - 46 0.029 0.144
+2025-04-28 10:09:24,202 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    objetivos_records = request.env['objetivos'].sudo().search([
+                             ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:09:24,202 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:24] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.000
+2025-04-28 10:09:24,944 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    objetivos_records = request.env['objetivos'].sudo().search([
+                             ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:09:24,950 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:24] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.021
+2025-04-28 10:09:26,408 8588 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-28 10:09:26,410 8588 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-28 10:09:28,051 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "GET /odoo/action-247 HTTP/1.1" 200 - 105 0.032 1.624
+2025-04-28 10:09:28,280 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.002 0.006
+2025-04-28 10:09:28,676 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.011 0.011
+2025-04-28 10:09:28,681 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.005 0.008
+2025-04-28 10:09:28,686 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "POST /mail/data HTTP/1.1" 200 - 27 0.024 0.011
+2025-04-28 10:09:28,722 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "POST /web/action/load HTTP/1.1" 200 - 10 0.008 0.127
+2025-04-28 10:09:28,900 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 24 0.002 0.047
+2025-04-28 10:09:28,999 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:28] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-28 10:09:29,030 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:29] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-28 10:09:29,233 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:29] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 10:09:30,504 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:30] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 10:09:32,134 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.003
+2025-04-28 10:09:32,391 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:32] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 21 0.012 0.006
+2025-04-28 10:09:32,467 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:32] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.003 0.010
+2025-04-28 10:09:32,707 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:32] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2025-04-28 10:09:33,953 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:33] "POST /web/action/load HTTP/1.1" 200 - 6 0.003 0.005
+2025-04-28 10:09:34,283 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+    objetivos_records = request.env['objetivos'].sudo().search([
+                             ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:09:34,284 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:09:34] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.015
+2025-04-28 10:10:17,849 4324 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:10:17,889 4324 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:10:17,939 4324 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:10:17,946 4324 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:10:17,951 4324 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:10:17,952 4324 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:10:17,963 4324 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:10:17,969 4324 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1078, 1079, 1080, 1081] 
+2025-04-28 10:10:18,031 4324 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:10:18,068 4324 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.219s 
+2025-04-28 10:10:18,070 4324 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:10:18,072 4324 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:10:25,398 4324 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 10:10:25,398 4324 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:10:25,696 4324 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 10:10:28,227 584 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:10:28,228 584 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:10:28,228 584 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:10:28,228 584 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:10:28,380 584 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:10:28,387 584 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:10:28,566 584 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:10:28,598 584 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:10:28,613 584 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-28 10:10:28,629 584 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:10:28,629 584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:10:29,512 584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:10:29,512 584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:10:30,027 584 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:10:30,324 584 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:10:30,511 584 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:10:30,527 4708 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:10:30,527 4708 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:10:30,574 584 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:10:30,620 584 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:10:30,620 584 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:10:30,620 584 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:10:30,636 584 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:10:30,667 584 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:10:30,667 584 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:10:30,683 584 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:10:30,699 584 INFO dashboard odoo.modules.loading: Module linea loaded in 0.19s, 146 queries (+146 other) 
+2025-04-28 10:10:30,762 4708 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-04-28 10:10:31,099 584 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.78s, 146 queries (+146 extra) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,224 584 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,255 584 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:10:31,302 584 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:10:31,621 584 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:10:31,625 584 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:10:31,625 584 INFO dashboard odoo.modules.registry: Registry loaded in 3.059s 
+2025-04-28 10:10:32,713 7292 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:10:32,713 7292 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:10:32,713 7292 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:10:32,713 7292 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:10:32,853 7292 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:10:32,853 7292 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:10:33,061 7292 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:10:36,570 8588 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 10:10:36,593 8588 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:10:36,602 8588 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-04-28 10:10:36,606 8588 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:10:36,633 8588 INFO ? odoo.modules.loading: 38 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-04-28 10:10:36,684 8588 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:10:36,684 8588 INFO ? odoo.modules.registry: Registry loaded in 0.114s 
+2025-04-28 10:10:36,684 8588 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:10:36,751 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:10:36,751 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:10:36] "GET /linea/dashboard HTTP/1.1" 500 - 46 0.037 0.144
+2025-04-28 10:11:31,754 584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:11:31,779 584 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:11:31,826 584 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:11:31,832 584 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:11:31,836 584 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:11:31,837 584 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:11:31,848 584 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:11:31,856 584 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1082, 1083, 1084] 
+2025-04-28 10:11:31,921 584 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:11:31,954 584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.201s 
+2025-04-28 10:11:31,957 584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:11:31,959 584 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:11:52,246 584 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 10:11:52,246 584 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:11:52,575 584 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-28 10:11:55,588 6108 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:11:55,588 6108 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:11:55,588 6108 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:11:55,588 6108 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:11:55,744 6108 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:11:55,744 6108 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:11:55,932 6108 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:11:56,104 6108 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:11:56,109 6108 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:11:56,119 6108 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:11:56,129 6108 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:11:56,949 6108 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:11:56,949 6108 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:11:57,435 6108 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:11:57,734 6108 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:11:57,921 6108 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:11:57,962 6108 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:11:58,009 6108 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:11:58,009 6108 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:11:58,009 6108 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:11:58,040 6108 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:11:58,055 6108 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:11:58,055 6108 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:11:58,071 6108 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:11:58,071 6108 INFO dashboard odoo.modules.loading: Module linea loaded in 0.15s, 146 queries (+146 other) 
+2025-04-28 10:11:58,407 6108 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.67s, 146 queries (+146 extra) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,532 6108 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,576 6108 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:11:58,619 6108 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:11:58,919 6108 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:11:58,919 6108 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:11:58,919 6108 INFO dashboard odoo.modules.registry: Registry loaded in 2.988s 
+2025-04-28 10:12:11,489 8588 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-28 10:12:11,489 8588 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:12:11,489 8588 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:12:11,505 8588 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:12:11,533 8588 INFO ? odoo.modules.loading: 38 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-04-28 10:12:11,596 8588 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:12:11,598 8588 INFO ? odoo.modules.registry: Registry loaded in 0.109s 
+2025-04-28 10:12:11,599 8588 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:12:11,704 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:12:11,704 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:11] "GET /linea/dashboard HTTP/1.1" 500 - 46 0.001 0.214
+2025-04-28 10:12:20,971 7292 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-28 10:12:20,971 7292 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 10:12:21,410 7292 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-04-28 10:12:23,155 8148 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:12:23,155 8148 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:12:23,155 8148 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:12:23,155 8148 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:12:23,280 8148 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:12:23,280 8148 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:12:23,517 8148 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:12:30,459 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:12:30,459 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:30] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.016
+2025-04-28 10:12:34,872 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:12:34,873 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:34] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.001 0.007
+2025-04-28 10:12:37,346 8588 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-28 10:12:37,348 8588 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-28 10:12:37,350 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 19 0.006 0.013
+2025-04-28 10:12:37,394 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.004 0.004
+2025-04-28 10:12:37,754 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.000 0.032
+2025-04-28 10:12:37,754 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.016 0.017
+2025-04-28 10:12:37,754 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.000 0.017
+2025-04-28 10:12:37,771 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:37] "POST /mail/data HTTP/1.1" 200 - 27 0.033 0.017
+2025-04-28 10:12:38,038 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:38] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 30 0.023 0.040
+2025-04-28 10:12:38,077 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:38] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2025-04-28 10:12:38,369 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:38] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.002 0.010
+2025-04-28 10:12:38,723 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:38] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-28 10:12:39,056 8588 ERROR dashboard odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odooprograma\server\useraddons\linea\controllers\lineasController.py", line 48, in dashboard_view
+AttributeError: 'int' object has no attribute 'items'
+2025-04-28 10:12:39,070 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:39] "GET /linea/dashboard HTTP/1.1" 500 - 4 0.000 0.016
+2025-04-28 10:12:39,733 8588 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:12:39] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.016
+2025-04-28 10:12:59,167 6108 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-28 10:12:59,195 6108 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-28 10:12:59,242 6108 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-28 10:12:59,249 6108 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-28 10:12:59,253 6108 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:12:59,254 6108 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-28 10:12:59,265 6108 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-28 10:12:59,336 6108 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-28 10:12:59,370 6108 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.204s 
+2025-04-28 10:12:59,372 6108 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-28 10:12:59,374 6108 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-28 10:21:05,124 6244 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-28 10:21:05,124 6244 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-28 10:21:05,124 6244 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-28 10:21:05,125 6244 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-28 10:21:05,282 6244 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-28 10:21:05,290 6244 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-28 10:21:05,481 6244 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-28 10:21:05,512 6244 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:21:05,517 6244 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:21:05,536 6244 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-28 10:21:05,538 6244 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-28 10:21:06,426 6244 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:21:06,426 6244 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-28 10:21:06,942 6244 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-28 10:21:07,299 6244 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:21:07,491 6244 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-28 10:21:07,538 6244 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-28 10:21:07,569 6244 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-28 10:21:07,569 6244 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-28 10:21:07,569 6244 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-28 10:21:07,604 6244 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-28 10:21:07,629 6244 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-28 10:21:07,640 6244 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-28 10:21:07,667 6244 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-28 10:21:07,676 6244 INFO dashboard odoo.modules.loading: Module linea loaded in 0.19s, 147 queries (+147 other) 
+2025-04-28 10:21:08,037 6244 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.74s, 147 queries (+147 extra) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,162 6244 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,193 6244 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-28 10:21:08,240 6244 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-28 10:21:08,576 6244 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-28 10:21:08,576 6244 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-28 10:21:08,576 6244 INFO dashboard odoo.modules.registry: Registry loaded in 3.094s 
+2025-04-28 10:21:10,072 8148 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-28 10:21:10,075 8148 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-28 10:21:10,093 8148 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-28 10:21:10,618 8148 INFO ? odoo.modules.loading: 38 modules loaded in 0.52s, 0 queries (+0 extra) 
+2025-04-28 10:21:10,687 8148 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-28 10:21:10,691 8148 INFO ? odoo.modules.registry: Registry loaded in 0.647s 
+2025-04-28 10:21:10,694 8148 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-28 10:21:10,825 8148 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 10:21:10] "GET /linea/dashboard HTTP/1.1" 200 - 51 0.040 0.742

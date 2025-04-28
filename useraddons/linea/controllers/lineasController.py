@@ -36,8 +36,8 @@ class lineasController(http.Controller):
         for (hora, puesto), count in registros.items():
             if hora in registros_ordenados:
                 registros_ordenados[hora][puesto] = count
-        
-        ######### OBJETIVOS ##########
+         
+        ######### OBJETIVOS #########
         inicio_semana = hoy - timedelta(days=hoy.weekday())  
         fin_semana = inicio_semana + timedelta(days=4)      
 
