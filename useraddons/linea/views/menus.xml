@@ -1,0 +1,37 @@
+<odoo>
+    <record id="action_linea" model="ir.actions.act_window">
+        <field name="name">Línea de Trabajo</field>
+        <field name="res_model">linea</field>
+        <field name="view_mode">list,form,kanban</field>
+        <field name="help" type="html">
+            <p>Crea y gestiona líneas de trabajo.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_linea_root" name="Líneas de Trabajo"/>
+    
+    <menuitem id="menu_linea" name="Gestionar Líneas" parent="menu_linea_root" action="action_linea"/>
+    
+    <record id="action_linea_dashboard" model="ir.actions.act_url">
+        <field name="name">Dashboard Línea</field>
+        <field name="url">/linea/dashboard</field>
+        <field name="target">self</field>
+    </record>
+
+    <menuitem id="menu_linea_dashboard"
+            name="Dashboard Línea"
+            parent="menu_linea_root"
+            action="action_linea_dashboard"
+            sequence="30"/>
+
+     <record id="action_objetivo" model="ir.actions.act_window">
+        <field name="name">Objetivos</field>
+        <field name="res_model">objetivos</field>
+        <field name="view_mode">list,form,kanban</field>
+        <field name="help" type="html">
+            <p>Crea y gestiona los objetivos de la línea de trabajo.</p>
+        </field>
+    </record>
+    <menuitem id="menu_objetivo" name="Gestionar Objetivos" parent="menu_linea_root" action="action_objetivo"/>
+
+</odoo>

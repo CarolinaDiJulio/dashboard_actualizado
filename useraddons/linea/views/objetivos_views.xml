@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_objetivos_list" model="ir.ui.view">
+        <field name="name">objetivos.list</field>
+        <field name="model">objetivos</field>
+        <field name="arch" type="xml">
+            <list string="Objetivos de Trabajo">
+                <field name="timestamp"/>
+                <field name="dia"/>
+                <field name="objetivo"/>
+                <field name="cantidad" readonly="1"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_objetivos_form" model="ir.ui.view">
+        <field name="name">objetivos.form</field>
+        <field name="model">objetivos</field>
+        <field name="arch" type="xml">
+            <form string="Objetivos de Trabajo">
+                <sheet>
+                    <group>
+                        <field name="timestamp" />
+                        <field name="objetivo"/>
+                        <field name="dia" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_objetivos_kanban" model="ir.ui.view">
+        <field name="name">view.objetivos.kanban</field>
+        <field name="model">objetivos</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_card">
+                            <div class="oe_kanban_content">
+                                <div class="oe_kanban_primary_left">
+                                    <strong>
+                                        <field name="timestamp"/>
+                                    </strong>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field  name="dia"/>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field  name="objetivo"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+</odoo> 
+

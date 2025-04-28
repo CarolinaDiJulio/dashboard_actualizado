@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- View schedules View List -->
+    <record id="view_schedules_list" model="ir.ui.view">
+        <field name="name">view.schedules.list</field>
+        <field name="model">schedules</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="usuario_id"/>
+                <field name="hora_entrada" />
+                <field name="hora_salida" />
+                <field name="horas_trabajadas_formateadas"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- View schedules form -->
+    <record id="view_schedules_form" model="ir.ui.view">
+        <field name="name">view.schedules.form</field>
+        <field name="model">schedules</field>
+        <field name="arch" type="xml">
+            <form string="Schedules">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="usuario_id"/>
+                        <h1>
+                            <field name="usuario_id" placeholder="Nombre usuario..."/>
+                        </h1>
+                    </div>
+                    <div class="oe_title">
+                        <label for="hora_entrada"/>
+                        <h1>
+                            <field name="hora_entrada"  placeholder="Hora entrada..."/>
+                        </h1>
+                    </div>
+                    
+                    <div class="oe_title">
+                        <label for="hora_salida"/>
+                        <h1>
+                            <field name="hora_salida"  placeholder="Hora salida..."/>
+                        </h1>
+                    </div>
+                    
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <!-- View horarios kanban -->
+    <record id="view_schedules_kanban" model="ir.ui.view">
+        <field name="name">view.schedules.kanban</field>
+        <field name="model">schedules</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <!-- Definir las tarjetas de cada operador -->
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_card">
+                            <div class="oe_kanban_content">
+                                <div class="oe_kanban_primary_left">
+                                    <strong>
+                                        <field name="usuario_id"/>
+                                    </strong>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field  name="hora_entrada"/>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field   name="hora_salida"/>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field    name="horas_trabajadas_formateadas"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+</odoo>

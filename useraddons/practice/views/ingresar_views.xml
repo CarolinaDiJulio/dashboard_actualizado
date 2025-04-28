@@ -1,0 +1,30 @@
+<odoo>
+    <data>
+        <template id="ingresar_views" name="Home Page">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section class="s_text_cover o_colored_level o_cc o_cc3 pb240" data-snippet="s_text_cover" data-name="Portada de texto">
+                        <div class="container-fluid">
+                            <div class="row o_grid_mode" data-row-count="11">
+                                
+                                <!-- Formulario de PIN -->
+                                <div class="o_grid_item g-height-9 o_cc o_cc1 o_colored_level g-col-lg-6 col-lg-6"
+                                     style="z-index: 1; --grid-item-padding-x: 24px; --grid-item-padding-y: 24px; grid-area: 3 / 4 / 12 / 10;">
+                                    <h1 class="display-3">Ingresar</h1>
+                                    <!-- Formulario de ingreso con PIN -->
+                                    <form action="/verificar_pin" method="POST">
+                                        <p class="lead">Para ingresar, introduce el PIN:</p>
+                                        <input type="text" id="pin" name="pin" class="form-control rounded-3" required="required"/>
+                                        <br/><br/>
+                                        <button type="submit" class="btn btn-primary btn-lg">CLICK</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

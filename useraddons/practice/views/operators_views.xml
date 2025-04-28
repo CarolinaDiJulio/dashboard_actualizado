@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View operators View List -->
+    <record id="view_operators_list" model="ir.ui.view">
+        <field name="name">view.operators.list</field>
+        <field name="model">operators</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="surname"/>
+                <field name="dni"/>
+                <field name="phone"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- View operators form -->
+    <record id="view_operators_form" model="ir.ui.view">
+        <field name="name">view.operators.form</field>
+        <field name="model">operators</field>
+        <field name="arch" type="xml">
+            <form string="Operators">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="Nombre..."/>
+                        </h1>
+                    </div>
+                    <div class="display-5 text-secondary">
+                        <label for="surname"/>
+                        <h1>
+                            <field name="surname" placeholder="Apellidos..."/>
+                        </h1>
+                    </div>
+                    <div class="display-5 text-secondary">
+                        <label for="dni"/>
+                        <h1>
+                            <field name="dni" placeholder="DNI..."/>
+                        </h1>
+                    </div>
+                    <div class="display-5 text-secondary">
+                        <label for="phone"/>
+                        <h1>
+                            <field name="phone" placeholder="Número de teléfono..."/>
+                        </h1>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- View operators kanban -->
+    <record id="view_operators_kanban" model="ir.ui.view">
+        <field name="name">view.operators.kanban</field>
+        <field name="model">operators</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <!-- Definir las tarjetas de cada operador -->
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_card">
+                            <!-- Mostrar el nombre del operador en la parte superior -->
+                            <div class="oe_kanban_content">
+                                <div class="oe_kanban_primary_left">
+                                    <strong>
+                                        <field name="name"/>
+                                    </strong>
+                                </div>
+                                <!-- Mostrar los apellidos debajo del nombre -->
+                                <div class="oe_kanban_secondary_left">
+                                    <field name="surname"/>
+                                </div>
+                                <!-- Mostrar el DNI debajo de los apellidos -->
+                                <div class="oe_kanban_secondary_left">
+                                    <field name="dni"/>
+                                </div>
+                                <!-- Mostrar el número de teléfono -->
+                                <div class="oe_kanban_secondary_left">
+                                    <field name="phone"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <!-- View operators search -->
+    <record id="view_operators_search" model="ir.ui.view">
+        <field name="name">view.operators.search</field>
+        <field name="model">operators</field>
+        <field name="arch" type="xml">
+            <search>
+                <group expand="1" string="Group By">
+                    <filter string="Name" name="name" domain="[]" context="{'group_by':'name'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

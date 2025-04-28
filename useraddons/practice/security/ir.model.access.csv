@@ -1,0 +1,4 @@
+access_operators_manager,operators_manager,model_operators,,1,1,1,1
+access_operators_user,operators_user,model_operators,,1,0,0,0
+access_schedules_user,access_schedules_user,model_schedules,,1,1,1,1
+

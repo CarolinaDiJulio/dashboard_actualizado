@@ -1,0 +1,121 @@
+<odoo>
+    <template id="linea_qweb_view" name="Dashboard">
+        <xpath expr="." position="inside">
+            <script>
+                function refreshPage() {
+                    var now = new Date();
+                    var secondsLeft = 60 - now.getSeconds(); // Calcula los segundos restantes
+                    setTimeout(function() {
+                    location.reload(); // Recarga la página
+                    }, secondsLeft * 1000); // Espera los segundos restantes antes de recargar
+                }
+                window.onload = refreshPage;
+            </script>
+            <link rel="stylesheet" type="text/css" href="/linea/static/src/css/style.css"/>
+        </xpath>
+
+        <t t-call="web.layout">
+            <div class="container">
+                <h1 class="titulo">Dashboard</h1>
+                    <div class="dashboard-content">
+                        <div class="date-section">
+                            <h2><span t-esc="hoy" id="fecha"></span></h2>
+                            <h2><span t-esc="hora_actual" id="hora"></span></h2>
+                            <div class="flex">
+                                <table class="objetivos">
+                                    <tr>
+                                        <th>Día de la semana</th>
+                                        <th>Objetivo</th>
+                                        <th>Cantidad</th>
+                                    </tr>
+                                    <t t-foreach="objetivos.items()" t-as="dia_data">
+                                        <tr>
+                                            <td><t t-esc="dia_data[0]"/></td>
+                                            <td> 
+                                                <t t-foreach="dia_data[1]['objetivos']" t-as="obj">
+                                                    <t t-esc="obj"/>
+                                                </t> 
+                                            </td>
+                                            <td>
+                                               <t t-esc="dia_data[1]['cantidad']"/>
+                                            </td> 
+                                        </tr>
+                                    </t>
+                                </table>
+                                <table class="validacion">
+                                    <tr>
+                                        <th>Validado</th>
+                                        <th>No validado</th>
+                                        <th>Cuarentena</th>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <table class="pv">
+                                    <tr>
+                                        <th>PV actual</th>
+                                    </tr>
+                                    <tr><td></td></tr>
+                                </table>
+                            </div>
+                                <table class="valizas">
+                                    <tr>
+                                        <th>Horas</th>
+                                        <th>Puesto 1</th>
+                                        <th>Puesto 2</th>
+                                        <th>Puesto 3</th>
+                                        <th>Puesto 4</th>
+                                        <th>Puesto 5</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    <t t-foreach="registros.items()" t-as="fila">
+                                        <tr>
+                                            <td><t t-esc="fila[0]"/></td>
+                                            <td><t t-esc="fila[1]['1']"/></td>
+                                            <td><t t-esc="fila[1]['2']"/></td>
+                                            <td><t t-esc="fila[1]['3']"/></td>
+                                            <td><t t-esc="fila[1]['4']"/></td>
+                                            <td><t t-esc="fila[1]['5']"/></td>
+                                            <td>
+                                                <t t-set="total" t-value="fila[1]['1'] + fila[1]['2'] + fila[1]['3'] + fila[1]['4'] + fila[1]['5']"/>
+                                                <t t-esc="total"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                    <tr>
+                                        <td><strong>Total</strong></td>
+                                        <td>
+                                            <t t-set="total_puesto_1" t-value="sum(fila[1]['1'] for fila in registros.items())"/>
+                                            <t t-esc="total_puesto_1"/>
+                                        </td>
+                                        <td>
+                                            <t t-set="total_puesto_2" t-value="sum(fila[1]['2'] for fila in registros.items())"/>
+                                            <t t-esc="total_puesto_2"/>
+                                        </td>
+                                        <td>
+                                            <t t-set="total_puesto_3" t-value="sum(fila[1]['3'] for fila in registros.items())"/>
+                                            <t t-esc="total_puesto_3"/>
+                                        </td>
+                                        <td>
+                                            <t t-set="total_puesto_4" t-value="sum(fila[1]['4'] for fila in registros.items())"/>
+                                            <t t-esc="total_puesto_4"/>
+                                        </td>
+                                        <td>
+                                            <t t-set="total_puesto_5" t-value="sum(fila[1]['5'] for fila in registros.items())"/>
+                                            <t t-esc="total_puesto_5"/>
+                                        </td>
+                                        <td class="total_general">
+                                            <t t-set="total_general" t-value="total_puesto_1 + total_puesto_2 + total_puesto_3 + total_puesto_4 + total_puesto_5"/>
+                                            <t t-esc="total_general"/>
+                                        </td>
+                                    </tr>
+                                </table> 
+                        </div>
+                    </div>
+                </div>
+        </t>
+    </template>
+</odoo>

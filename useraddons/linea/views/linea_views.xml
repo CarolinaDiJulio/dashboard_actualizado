@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_linea_list" model="ir.ui.view">
+        <field name="name">linea.list</field>
+        <field name="model">linea</field>
+        <field name="arch" type="xml">
+            <list string="Linea de Trabajo">
+                <field name="timestamp"/>
+                <field name="puesto"/>
+                <field name="imei"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_linea_form" model="ir.ui.view">
+        <field name="name">linea.form</field>
+        <field name="model">linea</field>
+        <field name="arch" type="xml">
+            <form string="Linea de Trabajo">
+                <sheet>
+                    <group>
+                        <field name="timestamp" readonly="1"/>
+                        <field name="puesto"/>
+                        <field name="imei"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+ 
+    <record id="view_linea_kanban" model="ir.ui.view">
+        <field name="name">view.linea.kanban</field>
+        <field name="model">linea</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <!-- Definir las tarjetas de cada operador -->
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_card">
+                            <div class="oe_kanban_content">
+                                <div class="oe_kanban_primary_left">
+                                    <strong>
+                                        <field name="timestamp"/>
+                                    </strong>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field name="puesto"/>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    <field name="imei"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+</odoo> 
+

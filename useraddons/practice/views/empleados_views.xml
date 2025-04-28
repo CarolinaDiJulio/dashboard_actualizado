@@ -1,0 +1,61 @@
+
+<odoo>
+    <data>
+
+        <template id="empleados_views" name="Empleados">
+            <t t-call="website.layout">
+             <t t-set="csrf_token" t-value="request.csrf_token()"/>
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section class="s_adventure pb200 pt0 o_colored_level oe_img_bg o_bg_img_center" 
+                        data-snippet="s_adventure" data-name="Aventura">
+                        <div class="o_we_bg_filter bg-white-50"/>
+                            <div class="s_allow_columns container">
+                                <h1 style="text-align: center;">
+                                    Bienvenido, <span t-field="user.name"/>
+                                </h1>
+                                <h2 class="display-1" style="text-align: center;">
+                                    <span class="display-4-fs">Registro horario</span>
+                                    <br/>
+                                    <span id="fecha_actual" style="text-align: center;">
+                                    </span>
+                                </h2>
+                                
+                                <p><br/></p>
+                                <p style="text-align: center;">
+                                    <!-- Botón de hora de ingreso -->
+                                    <t t-if="mostrar_ingreso">
+                                        <form action="/registrar_ingreso" method="POST" style="display: flex; justify-content: center;">
+                                            <p t-if="mensaje_ingreso" t-esc="mensaje_ingreso"></p>
+                                            <input type="hidden" name="csrf_token" t-att-value="csrf_token"/>
+                                            <input type="hidden" name="user_id" t-att-value="user.id" />
+                                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                                <button type="submit" name="hora_ingreso" id="hora_ingreso" class="btn btn-lg btn-primary o_default_snippet_text mx-auto mb-2">
+                                                    Hora ingreso
+                                                </button>
+                                                <a href="/ingresar_views" class="btn btn-primary btn-lg">Volver</a>
+                                            </div>
+                                        </form>
+                                    </t>
+                                    <br/><br/>
+                                    <!-- Botón de hora de egreso -->
+                                    <t t-if="mostrar_egreso">
+                                        <form action="/registrar_egreso" method="POST" style="display: flex; justify-content: center;">
+                                            <p t-if="mensaje_egreso" t-esc="mensaje_egreso"></p>
+                                            <input type="hidden" name="csrf_token" t-att-value="csrf_token"/>
+                                            <input type="hidden" name="user_id" t-att-value="user.id" />
+                                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                                <button type="submit" name="hora_egreso" id="hora_egreso" class="btn btn-lg btn-primary o_default_snippet_text mx-auto mb-2">
+                                                    Hora salida
+                                                </button>
+                                                <a href="/ingresar_views" class="btn btn-primary btn-lg">Volver</a>
+                                            </div>
+                                        </form>
+                                    </t>
+                                </p>
+                            </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

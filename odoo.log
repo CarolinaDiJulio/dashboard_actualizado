@@ -1,0 +1,43 @@
+2025-04-28 09:15:01,089 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.003
+2025-04-28 09:15:02,495 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:02] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:15:07,654 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:07] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-28 09:15:14,697 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:14] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:15:20,748 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:20] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-28 09:15:24,482 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:24] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:15:26,928 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:26] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-28 09:15:29,597 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:29] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-28 09:15:29,946 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:29] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:15:30,208 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:30] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.018
+2025-04-28 09:15:31,053 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:31] "POST /web/dataset/call_kw/linea/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2025-04-28 09:15:39,778 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:39] "POST /web/dataset/call_kw/linea/web_save HTTP/1.1" 200 - 3 0.000 0.019
+2025-04-28 09:15:44,064 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:44] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.005
+2025-04-28 09:15:45,579 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:45] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.008 0.039
+2025-04-28 09:15:45,685 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:45] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.002 0.007
+2025-04-28 09:15:45,800 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:45] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.002
+2025-04-28 09:15:46,113 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.016 0.040
+2025-04-28 09:15:46,130 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.037 0.036
+2025-04-28 09:15:46,130 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-04-28 09:15:46,148 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "POST /mail/data HTTP/1.1" 200 - 17 0.081 0.011
+2025-04-28 09:15:46,463 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-28 09:15:46,463 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.017
+2025-04-28 09:15:46,481 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:46] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.018
+2025-04-28 09:15:48,055 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:15:48] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-04-28 09:16:00,659 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:00] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.000 0.016
+2025-04-28 09:16:31,314 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.003 0.014
+2025-04-28 09:16:31,640 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.016
+2025-04-28 09:16:31,742 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "POST /mail/data HTTP/1.1" 200 - 17 0.000 0.016
+2025-04-28 09:16:31,798 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.002 0.024
+2025-04-28 09:16:31,829 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.040 0.016
+2025-04-28 09:16:31,841 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.039 0.027
+2025-04-28 09:16:31,956 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:31] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:16:32,163 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-28 09:16:32,163 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:32] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.017
+2025-04-28 09:16:32,528 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:32] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-28 09:16:33,729 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:33] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-28 09:16:34,330 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:34] "POST /web/action/load HTTP/1.1" 200 - 9 0.014 0.001
+2025-04-28 09:16:34,679 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:34] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-28 09:16:34,910 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:16:34] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-28 09:17:01,305 13384 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-28 09:17:01,305 13384 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-28 09:17:01,651 13384 INFO dashboard werkzeug: 127.0.0.1 - - [28/Apr/2025 09:17:01] "GET /linea/dashboard HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-28 09:17:01,915 13384 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
