@@ -48,7 +48,10 @@
                                     <field  name="dia"/>
                                 </div>
                                 <div class="oe_kanban_secondary_left">
-                                    <field  name="objetivo"/>
+                                    Objetivo: <field  name="objetivo"/>
+                                </div>
+                                <div class="oe_kanban_secondary_left">
+                                    Cantidad: <field  name="cantidad"/>
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ class objetivos(models.Model):
     timestamp= fields.Date(string = 'Fecha:')
     dia = fields.Char(string = 'Dia:', compute='_compute_dia', store=True)
     objetivo = fields.Char(string = 'Objetivo:')
-    cantidad = fields.Integer(string = 'Cantidad:', default = 0)
+    cantidad = fields.Integer(string = 'Cantidad:', default = 0,store=True)
 
 
     @api.depends('timestamp')
