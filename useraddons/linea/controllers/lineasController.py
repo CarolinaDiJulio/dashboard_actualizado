@@ -16,24 +16,16 @@ class lineasController(http.Controller):
             ('timestamp', '>=', dia_hoy), 
             ('timestamp', '<', fields.Date.add(dia_hoy, days=1))])
 
-        #registros = {} 
-        # for doc in docs:
-        #     puesto = doc.puesto
-        #     timestamp = doc.timestamp + timedelta(hours=2) # Ajustar la zona horaria a UTC+2
-        #     if puesto and timestamp:
-        #         hora = timestamp.strftime('%H:00')
-        #         clave =(hora,puesto)
-        #         if clave in registros:
-        #             registros[clave] += 1
-        #         else:
-        #             registros[clave] = 1
-
+        # Definicion de horas y puestos
         horas = ['07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00'] 
         puestos = ['1', '2', '3', '4', '5']
+
+        # Inicializar el diccionario de registros ordenados
         registros_ordenados =  {
             hora: {puesto: 0 for puesto in puestos}
             for hora in horas}
 
+        # Contar los registros por hora y puesto
         for doc in docs:
             puesto = doc.puesto
             timestamp = doc.timestamp + timedelta(hours=2) # Ajustar la zona horaria a UTC+2
@@ -45,6 +37,7 @@ class lineasController(http.Controller):
                 else:
                     registros_ordenados[clave] = 1
 
+
         for hora in horas:
             registros_ordenados[hora] = {puesto: 0 for puesto in puestos} 
         
@@ -53,17 +46,21 @@ class lineasController(http.Controller):
                 registros_ordenados[hora][puesto] = count
         
         ######### OBJETIVOS ##########
+        
         inicio_semana = hoy - timedelta(days=hoy.weekday())  
         fin_semana = inicio_semana + timedelta(days=4)      
 
+        # Obtener los registros de la tabla 'objetivos' para la semana actual
         objetivos_records = request.env['objetivos'].sudo().search([
             ('timestamp', '>=', inicio_semana),
             ('timestamp', '<=', fin_semana)
         ])
 
+        # Inicializar el diccionario de objetivos
         dias_orden = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes']
         objetivos = {dia: {'objetivos': [], 'cantidad' : 0} for dia in dias_orden}
 
+        
         total_registros = sum(
                     registros_ordenados[hora][puesto] for hora in registros_ordenados for puesto in puestos
                 )
