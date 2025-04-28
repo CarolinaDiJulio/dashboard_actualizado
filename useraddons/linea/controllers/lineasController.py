@@ -6,15 +6,16 @@ class lineasController(http.Controller):
     @http.route('/linea/dashboard', type='http', auth='public', website=True)
     def dashboard_view(self):
         
-        hoy = date.today()
-        dia_hoy = fields.Date.today()
-        dia_semana =  datetime.today().strftime('%A')
+        hoy = date.today() # Fecha segun la zona horaria del ordenador
+        dia_hoy = fields.Date.today() # Fecha segun la zona horaria de odoo
+        dia_semana =  datetime.today().strftime('%A') # Dia de la semana (lunes, martes,etc..)
+        hora_actual = (datetime.now() + timedelta(hours=2)).strftime('%H:%M') # Ajustar la zona horaria a UTC+2
 
+        # Obtener los registros de la tabla 'linea' para el día actual
         docs = request.env['linea'].sudo().search([('timestamp', '>=', dia_hoy), ('timestamp', '<', fields.Date.add(dia_hoy, days=1))])
 
         registros = {} 
-        hora_actual = datetime.now() + timedelta(hours=2) # Ajustar la zona horaria a UTC+2
-        hora_actual = hora_actual.strftime('%H:%M')
+        
         for doc in docs:
             puesto = doc.puesto
             timestamp = doc.timestamp + timedelta(hours=2) # Ajustar la zona horaria a UTC+2
@@ -28,6 +29,7 @@ class lineasController(http.Controller):
 
         horas = ['07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00'] 
         puestos = ['1', '2', '3', '4', '5']
+
         registros_ordenados =  {hora: {puesto: 0 for puesto in puestos} for hora in horas}
 
         for hora in horas:
@@ -60,4 +62,5 @@ class lineasController(http.Controller):
                     # Solo actualizar el objetivo del día actual
                     obj.write({'cantidad': total_registros})
                 objetivos[obj.dia]['cantidad'] += obj.cantidad
+                
         return request.render('linea.linea_qweb_view',{'docs': docs, 'registros' : registros_ordenados, 'puestos' : puestos, 'horas': horas, 'hoy': hoy, 'dia_semana': dia_semana, 'hora_actual': hora_actual, 'objetivos': objetivos})
