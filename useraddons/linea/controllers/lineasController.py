@@ -6,7 +6,7 @@ class lineasController(http.Controller):
     @http.route('/linea/dashboard', type='http', auth='public', website=True)
     def dashboard_view(self):      
 
-        ######### Variables ######## 
+        ######### VARIABLES ######## 
 
         # Fechas y hora actual
         hoy = date.today() # Segun zona horaria del ordenador 
@@ -23,7 +23,7 @@ class lineasController(http.Controller):
         inicio_semana = hoy - timedelta(days=hoy.weekday())  
         fin_semana = inicio_semana + timedelta(days=4) 
 
-        ######### Gestionar linea ########
+        ######### GESTIONAR LINEA ########
 
         # Obtener los registros de la tabla 'linea' para el día actual
         registros_linea_hoy = request.env['linea'].sudo().search([('timestamp', '>=', dia_hoy), ('timestamp', '<', fields.Date.add(dia_hoy, days=1))])
