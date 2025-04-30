@@ -5,12 +5,11 @@ class objetivos(models.Model):
     _name = 'objetivos'
     _description = 'objetivos de la linea de trabajo'
 
-    timestamp= fields.Date(string = 'Fecha:')
+    timestamp= fields.Date(string = 'Fecha:',required=True, default=fields.Date.today())
     dia = fields.Char(string = 'Dia:', compute='_compute_dia', store=True)
     objetivo = fields.Char(string = 'Objetivo:')
     cantidad = fields.Integer(string = 'Cantidad:', default = 0)
-
-
+ 
     @api.depends('timestamp')
     def _compute_dia(self):
         dias_en_espanol = {
