@@ -112,6 +112,9 @@
                                         </td>
                                     </tr>
                                 </table> 
+                                <p style="text-align: center;">
+                                    <a class="btn btn-primary btn-lg" href="http://localhost:8069">Inicio</a>
+                                </p>
                         </div>
                     </div>
                 </div>
