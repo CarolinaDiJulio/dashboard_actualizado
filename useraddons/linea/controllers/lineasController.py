@@ -44,14 +44,14 @@ class lineasController(http.Controller):
         # Suma de todos los registros del dia 
         total_registros = sum(registros_ordenados[hora][puesto] for hora in registros_ordenados for puesto in puestos)
 
-        ######### Gestionar objetivos ######## 
+        ######### GESTIONAR OBJETIVOS ######## 
 
         # Obtener los registros de la tabla 'objetivos' para la semana actual
         objetivos_records = request.env['objetivos'].sudo().search([('timestamp', '>=', inicio_semana), ('timestamp', '<=', fin_semana)]) 
         
         # Diccionario de objetivos por día
         objetivos = {dia: {'objetivos': [], 'cantidad' : 0} for dia in dias_orden}
-
+ 
         for obj in objetivos_records: 
             reg_por_dia = 0 
             objetivos[obj.dia]['objetivos'].append(obj.objetivo) 
@@ -61,8 +61,8 @@ class lineasController(http.Controller):
                 if obj.timestamp == fecha_registro:
                     reg_por_dia += 1
                     obj.write({'cantidad': reg_por_dia}) 
-            obj.write({'cantidad': reg_por_dia})
-            objetivos[obj.dia]['cantidad'] += obj.cantidad 
+            obj.write({'cantidad': reg_por_dia}) 
+            objetivos[obj.dia]['cantidad'] += reg_por_dia
          
         # Renderizar la vista QWeb con los datos obtenidos 
         return request.render('linea.linea_qweb_view',{'docs': registros_linea_hoy, 'registros' : registros_ordenados, 'puestos' : puestos, 'horas': horas, 'hoy': hoy, 'dia_semana': dia_semana, 'hora_actual': hora_actual, 'objetivos': objetivos})

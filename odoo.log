@@ -12839,3 +12839,882 @@ UnboundLocalError: cannot access local variable 'registro' where it is not assoc
 2025-04-30 06:11:42,861 8448 INFO dashboard odoo.modules.loading: Modules loaded. 
 2025-04-30 06:11:42,864 8448 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
 2025-04-30 06:11:42,864 8448 INFO dashboard odoo.modules.registry: Registry loaded in 3.131s 
+2025-04-30 06:11:43,501 11360 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:11:43,501 11360 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:11:43,501 11360 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:11:43,501 11360 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:11:43,626 11360 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:11:43,642 11360 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:11:43,861 11360 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:11:47,269 8448 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:11:47,326 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /mail/data HTTP/1.1" 200 - 36 0.031 0.025
+2025-04-30 06:11:47,410 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /web/action/load HTTP/1.1" 200 - 11 0.005 0.136
+2025-04-30 06:11:47,596 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 26 0.035 0.066
+2025-04-30 06:11:47,600 8448 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:11:47,604 8448 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:11:47,608 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 18 0.022 0.088
+2025-04-30 06:11:47,609 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.026 0.082
+2025-04-30 06:11:47,628 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.102
+2025-04-30 06:11:47,738 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.007 0.012
+2025-04-30 06:11:47,924 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.004
+2025-04-30 06:11:47,946 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.001 0.003
+2025-04-30 06:11:47,997 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:47] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.005
+2025-04-30 06:11:48,279 8448 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:11:48,450 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:48] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 19 0.017 0.097
+2025-04-30 06:11:48,600 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:48] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-30 06:11:49,107 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:49] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:11:49,533 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:49] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:11:50,818 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:50] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:11:51,229 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:51] "GET /linea/dashboard HTTP/1.1" 200 - 27 0.033 0.042
+2025-04-30 06:11:52,842 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:52] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.004 0.003
+2025-04-30 06:11:52,845 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:52] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.003
+2025-04-30 06:11:53,201 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-30 06:11:53,217 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.016
+2025-04-30 06:11:53,217 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.001 0.015
+2025-04-30 06:11:53,233 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /mail/data HTTP/1.1" 200 - 17 0.016 0.017
+2025-04-30 06:11:53,469 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.001 0.015
+2025-04-30 06:11:53,523 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2025-04-30 06:11:53,783 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:11:53,875 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:53] "POST /web/action/load HTTP/1.1" 200 - 6 0.016 0.006
+2025-04-30 06:11:54,224 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:54] "GET /linea/dashboard HTTP/1.1" 200 - 14 0.013 0.027
+2025-04-30 06:11:55,079 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:55] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.016 0.000
+2025-04-30 06:11:56,525 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:56] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.005
+2025-04-30 06:11:56,759 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:56] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.003
+2025-04-30 06:11:56,960 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:56] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.007 0.054
+2025-04-30 06:11:56,968 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.026 0.041
+2025-04-30 06:11:56,972 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:56] "POST /mail/data HTTP/1.1" 200 - 17 0.042 0.034
+2025-04-30 06:11:57,072 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:57] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2025-04-30 06:11:57,301 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:57] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-30 06:11:57,301 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:57] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.015 0.002
+2025-04-30 06:11:57,657 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:57] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.005
+2025-04-30 06:11:57,787 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:57] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.002 0.005
+2025-04-30 06:11:58,583 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:58] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.004
+2025-04-30 06:11:59,268 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:11:59] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:02,339 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:02] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.001
+2025-04-30 06:12:07,116 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:07] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 6 0.000 0.016
+2025-04-30 06:12:07,757 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:07] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.005
+2025-04-30 06:12:08,083 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:08] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.017
+2025-04-30 06:12:08,314 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:08] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:08,401 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:08] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:10,701 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:10] "GET /odoo/action-239 HTTP/1.1" 200 - 92 0.007 1.611
+2025-04-30 06:12:10,866 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:10] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.007
+2025-04-30 06:12:11,237 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:11] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:12:11,258 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:11] "POST /mail/data HTTP/1.1" 200 - 17 0.003 0.018
+2025-04-30 06:12:11,271 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:11] "GET /linea/dashboard HTTP/1.1" 200 - 15 0.000 0.000
+2025-04-30 06:12:12,334 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:12] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.012
+2025-04-30 06:12:14,717 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:14] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2025-04-30 06:12:18,901 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:18] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:24,320 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:24] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.001
+2025-04-30 06:12:25,817 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:25] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:30,436 8448 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [104] 
+2025-04-30 06:12:30,436 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:30] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:12:30,784 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:30] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:12:31,283 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:31] "POST /web/action/load HTTP/1.1" 200 - 6 0.001 0.004
+2025-04-30 06:12:31,639 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:31] "GET /linea/dashboard HTTP/1.1" 200 - 15 0.010 0.028
+2025-04-30 06:12:33,292 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.007
+2025-04-30 06:12:33,295 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.005
+2025-04-30 06:12:33,667 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "POST /web/action/load HTTP/1.1" 200 - 9 0.011 0.002
+2025-04-30 06:12:33,667 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.011
+2025-04-30 06:12:33,667 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.011 0.000
+2025-04-30 06:12:33,687 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "POST /mail/data HTTP/1.1" 200 - 17 0.028 0.004
+2025-04-30 06:12:33,924 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.002 0.019
+2025-04-30 06:12:33,999 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:33] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:12:34,233 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:34] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:34,871 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:34] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.001
+2025-04-30 06:12:35,834 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:35] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:36,066 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:37,766 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:37] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:41,137 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:41] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.001
+2025-04-30 06:12:41,729 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:41] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:42,932 8448 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:12:42,963 8448 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:12:43,025 8448 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:12:43,025 8448 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:12:43,025 8448 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:12:43,025 8448 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:12:43,041 8448 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:12:43,057 8448 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470] 
+2025-04-30 06:12:43,104 8448 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:12:43,135 8448 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.203s 
+2025-04-30 06:12:43,135 8448 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:12:43,135 8448 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:12:43,900 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:43] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:12:44,204 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:44] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.004 0.031
+2025-04-30 06:12:46,247 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.002 0.004
+2025-04-30 06:12:46,478 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.005
+2025-04-30 06:12:46,649 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.031
+2025-04-30 06:12:46,656 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.023
+2025-04-30 06:12:46,660 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "POST /mail/data HTTP/1.1" 200 - 17 0.024 0.020
+2025-04-30 06:12:46,812 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:12:46,984 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-30 06:12:46,984 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:46] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.017
+2025-04-30 06:12:47,351 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:47] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.003
+2025-04-30 06:12:48,570 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:48] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2025-04-30 06:12:49,452 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:49] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:50,252 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:50] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:50,931 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:50] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.003 0.002
+2025-04-30 06:12:51,898 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:51] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.009
+2025-04-30 06:12:52,150 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:52] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.002
+2025-04-30 06:12:52,214 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:52] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:52,486 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:52] "GET /odoo/action-247 HTTP/1.1" 200 - 19 0.003 0.013
+2025-04-30 06:12:52,702 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:52] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.000 0.000
+2025-04-30 06:12:53,570 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:53] "POST /mail/data HTTP/1.1" 200 - 17 0.003 0.013
+2025-04-30 06:12:53,935 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:53] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.012
+2025-04-30 06:12:53,935 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.011 0.001
+2025-04-30 06:12:54,198 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:54] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.003 0.012
+2025-04-30 06:12:54,250 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:54] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:12:54,517 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:54] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:12:54,554 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:54] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2025-04-30 06:12:55,976 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:55] "POST /web/action/load HTTP/1.1" 200 - 6 0.008 0.015
+2025-04-30 06:12:56,200 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:12:56] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.000 0.000
+2025-04-30 06:13:00,254 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:00] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.012 0.004
+2025-04-30 06:13:01,224 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:01] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.005
+2025-04-30 06:13:02,333 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:02] "POST /web/dataset/call_kw/linea/onchange HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:13:11,369 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:11] "POST /web/dataset/call_kw/linea/web_save HTTP/1.1" 200 - 4 0.000 0.001
+2025-04-30 06:13:12,401 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:12] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:13:12,917 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:12] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:13:14,950 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:14] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:13:15,468 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:15] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:13:15,824 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:15] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.010 0.010
+2025-04-30 06:13:19,415 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.005
+2025-04-30 06:13:19,421 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.005
+2025-04-30 06:13:19,800 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.016
+2025-04-30 06:13:19,800 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-30 06:13:19,800 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "POST /mail/data HTTP/1.1" 200 - 17 0.000 0.016
+2025-04-30 06:13:19,815 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.016
+2025-04-30 06:13:20,035 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:20] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:13:20,108 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:20] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:13:20,350 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:20] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:13:21,666 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:13:21] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.006
+2025-04-30 06:14:00,896 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:00] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.007 0.020
+2025-04-30 06:14:09,950 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:09] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.003
+2025-04-30 06:14:09,974 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:09] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.005
+2025-04-30 06:14:10,290 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:10] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2025-04-30 06:14:12,005 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:12] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:14:14,801 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:14] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.011
+2025-04-30 06:14:17,438 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:17] "POST /web/dataset/call_kw/linea/web_read HTTP/1.1" 200 - 2 0.000 0.001
+2025-04-30 06:14:22,168 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:22] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:27,157 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:27] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:14:30,335 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:30] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:34,395 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:34] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:14:36,150 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:36] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:36,398 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:36] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:43,852 8448 INFO dashboard odoo.models.unlink: User #2 deleted linea records with IDs: [28, 27] 
+2025-04-30 06:14:43,852 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:43] "POST /web/dataset/call_kw/linea/unlink HTTP/1.1" 200 - 6 0.001 0.014
+2025-04-30 06:14:44,167 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:44] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:45,335 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:45] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-30 06:14:48,150 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:48] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:14:48,415 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:48] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.009 0.008
+2025-04-30 06:14:49,261 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.005
+2025-04-30 06:14:49,478 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.002
+2025-04-30 06:14:49,660 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.031
+2025-04-30 06:14:49,660 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.031 0.000
+2025-04-30 06:14:49,674 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "POST /mail/data HTTP/1.1" 200 - 17 0.000 0.044
+2025-04-30 06:14:49,812 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:14:49,984 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:14:49,984 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:49] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-04-30 06:14:50,364 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:50] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.013
+2025-04-30 06:14:51,594 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:51] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.008
+2025-04-30 06:14:52,566 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:52] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.014
+2025-04-30 06:14:52,886 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:52] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:53,145 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:53] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:55,234 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:55] "POST /web/action/load HTTP/1.1" 200 - 6 0.001 0.014
+2025-04-30 06:14:55,551 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:55] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.000 0.000
+2025-04-30 06:14:57,048 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.002 0.004
+2025-04-30 06:14:57,054 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.005
+2025-04-30 06:14:57,437 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.013
+2025-04-30 06:14:57,437 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.014
+2025-04-30 06:14:57,437 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.003
+2025-04-30 06:14:57,437 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "POST /mail/data HTTP/1.1" 200 - 17 0.013 0.003
+2025-04-30 06:14:57,680 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:14:57,748 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:14:57,999 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:57] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:14:59,451 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:14:59] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.016
+2025-04-30 06:15:01,866 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:15:01] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.000 0.000
+2025-04-30 06:16:01,560 8448 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:16:01] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.005 0.017
+2025-04-30 06:16:53,056 8448 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:16:53,072 8448 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:16:53,203 8448 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2025-04-30 06:16:55,328 11360 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:16:55,328 11360 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:16:55,359 11360 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:16:55,487 5396 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:16:55,487 5396 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:16:55,487 5396 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:16:55,487 5396 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:16:55,627 5396 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:16:55,642 5396 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:16:55,850 5396 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:16:55,882 5396 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:16:55,882 5396 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:16:55,897 5396 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:16:55,897 5396 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-30 06:16:55,928 11360 INFO ? odoo.modules.loading: 38 modules loaded in 0.57s, 0 queries (+0 extra) 
+2025-04-30 06:16:56,007 11360 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:16:56,007 11360 INFO ? odoo.modules.registry: Registry loaded in 0.710s 
+2025-04-30 06:16:56,007 11360 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:16:56,083 11360 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:16:56] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.019 0.767
+2025-04-30 06:16:56,431 11360 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:16:56,806 5396 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:16:56,806 5396 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:16:57,306 5396 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-30 06:16:57,368 11360 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:16:57,368 11360 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:16:57,645 5396 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:16:57,836 5396 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-30 06:16:57,884 5396 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-30 06:16:57,922 11360 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:16:57,938 5396 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-30 06:16:57,938 5396 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-30 06:16:57,938 5396 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-30 06:16:57,963 5396 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-30 06:16:57,987 5396 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-30 06:16:57,995 5396 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-30 06:16:58,012 5396 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-30 06:16:58,017 5396 INFO dashboard odoo.modules.loading: Module linea loaded in 0.18s, 146 queries (+146 other) 
+2025-04-30 06:16:58,373 5396 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.73s, 146 queries (+146 extra) 
+2025-04-30 06:16:58,518 5396 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,533 5396 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,534 5396 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,556 5396 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:16:58,609 5396 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-30 06:16:58,918 5396 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-30 06:16:58,918 5396 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-30 06:16:58,918 5396 INFO dashboard odoo.modules.registry: Registry loaded in 3.068s 
+2025-04-30 06:16:59,592 9756 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:16:59,592 9756 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:16:59,592 9756 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:16:59,592 9756 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:16:59,717 9756 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:16:59,732 9756 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:16:59,968 9756 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:17:00,238 5396 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:17:00,251 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:00] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.016 0.013
+2025-04-30 06:17:00,585 5396 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:17:01,618 5396 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:17:01,618 5396 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:17:01,902 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:01] "GET /linea/dashboard HTTP/1.1" 200 - 30 0.162 0.106
+2025-04-30 06:17:03,243 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "GET /odoo/action-233 HTTP/1.1" 200 - 101 0.046 1.578
+2025-04-30 06:17:03,384 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.000 0.069
+2025-04-30 06:17:03,717 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.018
+2025-04-30 06:17:03,717 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "POST /mail/data HTTP/1.1" 200 - 27 0.017 0.017
+2025-04-30 06:17:03,717 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.000 0.017
+2025-04-30 06:17:03,767 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:03] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.130
+2025-04-30 06:17:04,061 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:04] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.010
+2025-04-30 06:17:04,133 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:04] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 25 0.017 0.031
+2025-04-30 06:17:04,359 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:04] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.006 0.015
+2025-04-30 06:17:04,450 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:04] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:17:04,717 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-30 06:17:05,067 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:05] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 17 0.000 0.016
+2025-04-30 06:17:05,321 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:05] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.007 0.012
+2025-04-30 06:17:05,817 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-04-30 06:17:07,018 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:07] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:17:07,274 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:07] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.004 0.010
+2025-04-30 06:17:10,243 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.005
+2025-04-30 06:17:10,467 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-30 06:17:10,622 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "POST /mail/data HTTP/1.1" 200 - 17 0.009 0.008
+2025-04-30 06:17:10,626 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.002 0.012
+2025-04-30 06:17:10,635 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.009
+2025-04-30 06:17:10,783 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:10,949 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.002 0.013
+2025-04-30 06:17:10,955 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:10] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.014
+2025-04-30 06:17:11,316 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:11] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:17:11,317 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:11] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.016
+2025-04-30 06:17:12,247 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:12] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.009
+2025-04-30 06:17:13,634 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:13] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-30 06:17:13,893 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:13] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.002 0.005
+2025-04-30 06:17:13,975 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:13] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.004 0.012
+2025-04-30 06:17:15,770 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:15] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:16,468 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:16] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:19,754 5396 INFO dashboard odoo.models.unlink: User #2 deleted linea records with IDs: [65] 
+2025-04-30 06:17:19,754 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:19] "POST /web/dataset/call_kw/linea/unlink HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:17:20,086 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:20] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:21,445 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:21] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.001
+2025-04-30 06:17:23,252 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:23] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.015
+2025-04-30 06:17:23,539 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:23] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.005 0.033
+2025-04-30 06:17:25,269 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.005 0.003
+2025-04-30 06:17:25,524 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "POST /web/action/load HTTP/1.1" 200 - 9 0.010 0.019
+2025-04-30 06:17:25,619 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:25,639 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.018 0.003
+2025-04-30 06:17:25,649 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "POST /mail/data HTTP/1.1" 200 - 17 0.028 0.003
+2025-04-30 06:17:25,842 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:17:25,967 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-30 06:17:25,967 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:25] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.017
+2025-04-30 06:17:26,363 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:26] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.016
+2025-04-30 06:17:27,557 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:17:27] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-04-30 06:17:59,084 5396 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:17:59,146 5396 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:17:59,193 5396 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:17:59,209 5396 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:17:59,209 5396 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:17:59,209 5396 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:17:59,224 5396 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:17:59,224 5396 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1471, 1472, 1473, 1474, 1475, 1476, 1477, 1478, 1479, 1480, 1481, 1482, 1483, 1484, 1485, 1486, 1487] 
+2025-04-30 06:17:59,296 5396 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:17:59,318 5396 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.235s 
+2025-04-30 06:17:59,318 5396 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:17:59,318 5396 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:19:08,280 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:08] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.016
+2025-04-30 06:19:08,515 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:08] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.002 0.010
+2025-04-30 06:19:08,605 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:08] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-30 06:19:10,224 5396 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:10] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-30 06:19:17,356 5396 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:19:17,356 5396 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:19:17,566 5396 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-30 06:19:19,334 9060 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:19:19,334 9060 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:19:19,334 9060 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:19:19,334 9060 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:19:19,491 9060 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:19:19,491 9060 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:19:19,693 9060 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:19:19,725 9060 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:19:19,729 9756 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:19:19,730 9060 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:19:19,735 9756 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-04-30 06:19:19,748 9060 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:19:19,751 9060 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-30 06:19:19,758 9756 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:19:20,343 9756 INFO ? odoo.modules.loading: 38 modules loaded in 0.58s, 0 queries (+0 extra) 
+2025-04-30 06:19:20,414 9756 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:19:20,414 9756 INFO ? odoo.modules.registry: Registry loaded in 0.712s 
+2025-04-30 06:19:20,414 9756 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:19:20,492 9756 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:20] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.027 0.763
+2025-04-30 06:19:20,648 9060 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:19:20,648 9060 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:19:20,835 9756 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:19:21,163 9060 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-30 06:19:21,241 9756 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:19:21,241 9756 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:19:21,491 9060 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:19:21,701 9060 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-30 06:19:21,751 9060 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-30 06:19:21,801 9060 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-30 06:19:21,801 9060 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-30 06:19:21,801 9060 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-30 06:19:21,818 9060 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-30 06:19:21,827 9756 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:19:21,837 9060 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-30 06:19:21,851 9060 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-30 06:19:21,868 9060 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-30 06:19:21,868 9060 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-30 06:19:22,234 9060 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.74s, 146 queries (+146 extra) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,375 9060 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,406 9060 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:19:22,438 9060 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-30 06:19:22,719 9060 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-30 06:19:22,719 9060 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-30 06:19:22,719 9060 INFO dashboard odoo.modules.registry: Registry loaded in 3.025s 
+2025-04-30 06:19:23,504 13796 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:19:23,504 13796 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:19:23,504 13796 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:19:23,504 13796 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:19:23,636 13796 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:19:23,645 13796 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:19:23,855 13796 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:19:24,213 9060 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:19:24,244 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:19:24] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.000 0.031
+2025-04-30 06:19:24,563 9060 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:20:04,284 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:04] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 5 0.000 0.116
+2025-04-30 06:20:04,635 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:04] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:20:08,384 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:08] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-30 06:20:20,409 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:20] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:20:21,517 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:21] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:20:21,794 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:21] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:20:22,919 9060 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:20:22,946 9060 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:20:23,000 9060 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:20:23,007 9060 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:20:23,011 9060 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:20:23,012 9060 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:20:23,023 9060 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:20:23,031 9060 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1488, 1489, 1490, 1491, 1492, 1493, 1494, 1495, 1496, 1497] 
+2025-04-30 06:20:23,094 9060 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:20:23,128 9060 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.209s 
+2025-04-30 06:20:23,130 9060 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:20:23,132 9060 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:20:27,187 9060 INFO dashboard odoo.models.unlink: User #2 deleted linea records with IDs: [30] 
+2025-04-30 06:20:27,187 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:27] "POST /web/dataset/call_kw/linea/unlink HTTP/1.1" 200 - 7 0.000 0.000
+2025-04-30 06:20:27,518 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:27] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.014
+2025-04-30 06:20:28,160 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:28] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2025-04-30 06:20:30,369 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:30] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:20:30,652 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:30] "GET /linea/dashboard HTTP/1.1" 200 - 29 0.005 0.029
+2025-04-30 06:20:32,608 9060 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:20:32,610 9060 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:20:32,612 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:32] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 18 0.010 0.010
+2025-04-30 06:20:32,809 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.007
+2025-04-30 06:20:32,994 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.011
+2025-04-30 06:20:33,003 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "POST /mail/data HTTP/1.1" 200 - 27 0.020 0.014
+2025-04-30 06:20:33,014 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 24 0.026 0.018
+2025-04-30 06:20:33,141 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.003 0.011
+2025-04-30 06:20:33,334 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:20:33,382 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.017 0.031
+2025-04-30 06:20:33,732 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:33] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.016
+2025-04-30 06:20:34,962 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:20:34] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:22:06,252 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:22:06] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:22:10,587 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:22:10] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.001
+2025-04-30 06:22:14,320 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:22:14] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 6 0.000 0.001
+2025-04-30 06:24:27,277 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:24:27] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:25:05,286 9060 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [103, 105, 106, 107, 108, 109] 
+2025-04-30 06:25:05,286 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:25:05] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 6 0.001 0.014
+2025-04-30 06:25:05,603 9060 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:25:05] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:25:08,105 9060 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:25:08,105 9060 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:25:09,160 9060 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-30 06:25:11,012 13796 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:25:11,028 13796 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-30 06:25:11,043 13796 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:25:11,293 13796 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:25:11,293 13796 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:25:11,574 13796 INFO ? odoo.modules.loading: 38 modules loaded in 0.53s, 0 queries (+0 extra) 
+2025-04-30 06:25:11,656 13796 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:25:11,656 13796 INFO ? odoo.modules.registry: Registry loaded in 0.675s 
+2025-04-30 06:25:11,656 13796 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:25:11,718 13796 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:25:11] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.019 0.719
+2025-04-30 06:25:12,331 13796 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:25:15,601 2948 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:25:15,601 2948 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:25:15,601 2948 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:25:15,601 2948 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:25:15,753 2948 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:25:15,753 2948 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:25:16,002 2948 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:25:17,123 2948 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:25:17,128 2948 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:25:17,154 2948 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:25:17,707 2948 INFO ? odoo.modules.loading: 38 modules loaded in 0.55s, 0 queries (+0 extra) 
+2025-04-30 06:25:17,776 2948 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:25:17,779 2948 INFO ? odoo.modules.registry: Registry loaded in 0.688s 
+2025-04-30 06:25:17,782 2948 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:25:17,846 2948 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:25:17] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.034 0.721
+2025-04-30 06:25:18,194 2948 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:26:35,317 4176 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:26:35,317 4176 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:26:35,317 4176 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:26:35,317 4176 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:26:35,472 4176 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:26:35,479 4176 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:26:35,665 4176 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:26:35,810 4176 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:26:35,815 4176 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:26:35,833 4176 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:26:35,836 4176 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-30 06:26:36,749 4176 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:26:36,749 4176 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:26:37,233 4176 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-30 06:26:37,545 4176 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:26:37,733 4176 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-30 06:26:37,748 2948 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:26:37,748 2948 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:26:37,780 4176 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-30 06:26:37,795 4176 INFO dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:26:37,858 4176 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-30 06:26:37,858 4176 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-30 06:26:37,858 4176 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-30 06:26:37,873 4176 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-30 06:26:37,889 4176 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-30 06:26:37,904 4176 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-30 06:26:37,920 4176 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-30 06:26:37,920 4176 INFO dashboard odoo.modules.loading: Module linea loaded in 0.19s, 160 queries (+160 other) 
+2025-04-30 06:26:38,138 2948 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:26:38,316 4176 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.77s, 160 queries (+160 extra) 
+2025-04-30 06:26:38,441 4176 WARNING dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:26:38,454 4176 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,455 4176 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,455 4176 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,455 4176 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,455 4176 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,455 4176 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,456 4176 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,456 4176 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,456 4176 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,487 4176 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:26:38,527 4176 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-30 06:26:38,531 4176 ERROR dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:26:38,804 4176 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-30 06:26:38,804 4176 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-30 06:26:38,804 4176 INFO dashboard odoo.modules.registry: Registry loaded in 3.139s 
+2025-04-30 06:26:39,952 6576 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:26:39,952 6576 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:26:39,952 6576 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:26:39,952 6576 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:26:40,086 6576 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:26:40,101 6576 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:26:40,319 6576 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:26:40,846 4176 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:26:40,877 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:40] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.000 0.031
+2025-04-30 06:26:41,232 4176 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:26:42,384 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:42] "POST /web/action/load HTTP/1.1" 200 - 11 0.000 0.099
+2025-04-30 06:26:42,567 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:42] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 27 0.001 0.016
+2025-04-30 06:26:42,717 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:42] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-30 06:26:43,769 4176 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:26:43,769 4176 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:26:45,352 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:45] "GET /odoo/action-239 HTTP/1.1" 200 - 102 0.029 1.566
+2025-04-30 06:26:45,515 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:45] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.002 0.005
+2025-04-30 06:26:45,956 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.022
+2025-04-30 06:26:45,961 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:45] "POST /web/action/load HTTP/1.1" 200 - 6 0.024 0.051
+2025-04-30 06:26:45,986 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:45] "POST /mail/data HTTP/1.1" 200 - 27 0.041 0.055
+2025-04-30 06:26:46,170 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:46] "GET /linea/dashboard HTTP/1.1" 200 - 18 0.016 0.019
+2025-04-30 06:26:47,217 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:47] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:26:49,584 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:49] "POST /web/dataset/call_kw/linea/onchange HTTP/1.1" 200 - 2 0.000 0.015
+2025-04-30 06:26:55,918 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:55] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.017
+2025-04-30 06:26:56,970 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:56] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.000 0.003
+2025-04-30 06:26:57,937 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:26:57] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:27:01,901 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:01] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 6 0.001 0.066
+2025-04-30 06:27:03,444 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:03] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2025-04-30 06:27:04,734 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:04] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:27:08,385 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:08] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.001 0.015
+2025-04-30 06:27:10,201 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:10] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-30 06:27:10,888 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:10] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.001
+2025-04-30 06:27:19,220 4176 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [111] 
+2025-04-30 06:27:19,220 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:19] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:27:19,487 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:19] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.002 0.002
+2025-04-30 06:27:37,953 4176 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [110] 
+2025-04-30 06:27:37,953 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:37] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 5 0.000 0.000
+2025-04-30 06:27:38,286 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:38] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:27:38,835 4176 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:27:38,868 4176 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:27:38,918 4176 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:27:38,936 4176 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:27:38,941 4176 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:27:38,941 4176 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:27:38,953 4176 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:27:38,954 4176 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1498, 1499, 1500, 1501, 1502, 1503, 1504, 1505] 
+2025-04-30 06:27:39,018 4176 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:27:39,051 4176 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.216s 
+2025-04-30 06:27:39,051 4176 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:27:39,051 4176 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:27:40,228 4176 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:27:40,228 4176 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:27:41,320 4176 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-30 06:27:42,532 6576 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:27:42,542 6576 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-04-30 06:27:42,568 6576 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:27:43,102 6576 INFO ? odoo.modules.loading: 38 modules loaded in 0.53s, 0 queries (+0 extra) 
+2025-04-30 06:27:43,184 6576 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:27:43,184 6576 INFO ? odoo.modules.registry: Registry loaded in 0.810s 
+2025-04-30 06:27:43,184 6576 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:27:43,251 6576 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:43] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.061 0.817
+2025-04-30 06:27:43,601 6576 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:27:47,290 13688 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:27:47,290 13688 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:27:47,290 13688 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:27:47,290 13688 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:27:47,437 13688 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:27:47,445 13688 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:27:47,627 13688 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:27:47,658 13688 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:27:47,673 13688 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-30 06:27:47,705 13688 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:27:47,705 13688 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-30 06:27:48,610 13688 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:27:48,610 13688 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:27:49,110 13688 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-30 06:27:49,407 13688 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:27:49,594 13688 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-30 06:27:49,641 13688 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-30 06:27:49,657 13688 INFO dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:27:49,688 13688 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-30 06:27:49,688 13688 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-30 06:27:49,688 13688 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-30 06:27:49,703 13688 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-30 06:27:49,735 13688 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-30 06:27:49,735 6576 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:27:49,735 6576 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:27:49,735 13688 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-30 06:27:49,750 13688 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-30 06:27:49,766 13688 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 153 queries (+153 other) 
+2025-04-30 06:27:50,080 6576 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:27:50,137 13688 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.73s, 153 queries (+153 extra) 
+2025-04-30 06:27:50,262 13688 WARNING dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,277 13688 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,308 13688 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:27:50,340 13688 INFO dashboard odoo.addons.base.models.ir_model: Deleting 981@ir.model.constraint (linea.constraint_objetivos_objetivo_unico) 
+2025-04-30 06:27:50,340 13688 INFO dashboard odoo.addons.base.models.ir_model: Dropped CONSTRAINT objetivos_objetivo_unico@objetivos 
+2025-04-30 06:27:50,355 13688 INFO dashboard odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37896] 
+2025-04-30 06:27:50,355 13688 INFO dashboard odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [981] 
+2025-04-30 06:27:50,355 13688 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-30 06:27:50,355 13688 ERROR dashboard odoo.schema: Table 'objetivos': unable to add constraint 'objetivos_timestamp_unico' as unique(timestamos) 
+2025-04-30 06:27:50,636 13688 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-30 06:27:50,636 13688 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-30 06:27:50,636 13688 INFO dashboard odoo.modules.registry: Registry loaded in 3.010s 
+2025-04-30 06:27:51,935 1424 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:27:51,935 1424 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:27:51,935 1424 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:27:51,935 1424 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:27:52,073 1424 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:27:52,081 1424 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:27:52,295 1424 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:27:52,630 13688 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:27:52,679 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:52] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.017 0.046
+2025-04-30 06:27:53,001 13688 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:27:53,145 4176 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-04-30 06:27:53,169 4176 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:27:53,169 4176 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:27:53,186 4176 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:27:53,202 4176 INFO ? odoo.modules.loading: 38 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-30 06:27:53,285 4176 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:27:53,285 4176 INFO ? odoo.modules.registry: Registry loaded in 0.140s 
+2025-04-30 06:27:53,285 4176 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:27:53,335 4176 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:53] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 26 0.054 0.161
+2025-04-30 06:27:57,651 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:57] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 11 0.000 0.102
+2025-04-30 06:27:58,629 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:27:58] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:28:01,084 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:01] "POST /web/action/load HTTP/1.1" 200 - 6 0.016 0.001
+2025-04-30 06:28:01,390 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:01] "GET /linea/dashboard HTTP/1.1" 200 - 24 0.047 0.021
+2025-04-30 06:28:03,557 13688 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:28:03,559 13688 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:28:03,561 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 18 0.011 0.014
+2025-04-30 06:28:03,637 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:03] "POST /web/action/load HTTP/1.1" 200 - 9 0.001 0.012
+2025-04-30 06:28:04,089 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "POST /mail/data HTTP/1.1" 200 - 27 0.016 0.155
+2025-04-30 06:28:04,113 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.013 0.166
+2025-04-30 06:28:04,135 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 24 0.035 0.165
+2025-04-30 06:28:04,135 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.182
+2025-04-30 06:28:04,469 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.002 0.013
+2025-04-30 06:28:04,469 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.006 0.007
+2025-04-30 06:28:04,469 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:04] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.010
+2025-04-30 06:28:05,268 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:05] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:28:06,056 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:06] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-04-30 06:28:09,507 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:09] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.001
+2025-04-30 06:28:14,918 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:14] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.000
+2025-04-30 06:28:16,235 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:16] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2025-04-30 06:28:18,652 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:18] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:28:22,452 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:22] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.016
+2025-04-30 06:28:23,408 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:23] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.016
+2025-04-30 06:28:24,052 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:24] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.000
+2025-04-30 06:28:24,417 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:24] "GET /linea/dashboard HTTP/1.1" 200 - 14 0.007 0.023
+2025-04-30 06:28:26,400 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.003
+2025-04-30 06:28:26,409 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.004
+2025-04-30 06:28:26,817 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.020 0.021
+2025-04-30 06:28:26,817 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.044
+2025-04-30 06:28:26,817 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "POST /mail/data HTTP/1.1" 200 - 17 0.018 0.028
+2025-04-30 06:28:26,818 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:26] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.016 0.016
+2025-04-30 06:28:27,039 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:27] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.004 0.014
+2025-04-30 06:28:27,128 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:27] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2025-04-30 06:28:27,351 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:28:28,660 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:28] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-04-30 06:28:29,351 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:29] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:28:33,852 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:33] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2025-04-30 06:28:38,501 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:38] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.000
+2025-04-30 06:28:39,613 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:39] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.001
+2025-04-30 06:28:41,152 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:41] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:28:45,089 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:45] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.001
+2025-04-30 06:28:49,718 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:49] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.000
+2025-04-30 06:28:50,693 13688 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:28:50,722 13688 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:28:50,767 13688 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:28:50,767 13688 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:28:50,783 13688 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:28:50,783 13688 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:28:50,798 13688 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:28:50,806 13688 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1506, 1507] 
+2025-04-30 06:28:50,871 13688 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:28:50,901 13688 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.208s 
+2025-04-30 06:28:50,901 13688 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:28:50,901 13688 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:28:50,932 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:50] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:28:54,751 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:54] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.018
+2025-04-30 06:28:54,998 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:54] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 19 0.016 0.000
+2025-04-30 06:28:55,081 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:55] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-30 06:28:56,708 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:56] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.003
+2025-04-30 06:28:59,160 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:59] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-04-30 06:28:59,919 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:28:59] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.001
+2025-04-30 06:29:00,248 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:00] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.004 0.014
+2025-04-30 06:29:01,932 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:01] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.005
+2025-04-30 06:29:01,939 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:01] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.008
+2025-04-30 06:29:02,323 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "POST /web/action/load HTTP/1.1" 200 - 9 0.019 0.002
+2025-04-30 06:29:02,326 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.003 0.021
+2025-04-30 06:29:02,329 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "POST /mail/data HTTP/1.1" 200 - 17 0.025 0.002
+2025-04-30 06:29:02,331 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.009
+2025-04-30 06:29:02,547 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:02,635 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2025-04-30 06:29:02,871 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:02] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.003
+2025-04-30 06:29:03,292 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:03] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-04-30 06:29:04,253 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.002
+2025-04-30 06:29:04,509 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:04] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:04,568 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:04] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:04,568 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:04] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-04-30 06:29:05,710 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:05] "POST /web/dataset/call_kw/objetivos/onchange HTTP/1.1" 200 - 1 0.000 0.002
+2025-04-30 06:29:11,935 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:11] "POST /web/dataset/call_kw/objetivos/web_save HTTP/1.1" 200 - 5 0.000 0.000
+2025-04-30 06:29:12,734 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:12] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.002 0.002
+2025-04-30 06:29:15,251 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:15] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:15,518 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:15] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.006 0.001
+2025-04-30 06:29:20,885 13688 INFO dashboard odoo.models.unlink: User #2 deleted objetivos records with IDs: [117] 
+2025-04-30 06:29:20,885 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:20] "POST /web/dataset/call_kw/objetivos/unlink HTTP/1.1" 200 - 6 0.014 0.001
+2025-04-30 06:29:21,202 13688 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:21] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:28,688 13688 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:29:28,688 13688 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:29:29,730 13688 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2025-04-30 06:29:31,087 1424 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:29:31,087 1424 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:29:31,103 1424 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:29:31,630 1424 INFO ? odoo.modules.loading: 38 modules loaded in 0.53s, 0 queries (+0 extra) 
+2025-04-30 06:29:31,699 1424 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:29:31,699 1424 INFO ? odoo.modules.registry: Registry loaded in 0.642s 
+2025-04-30 06:29:31,699 1424 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:29:31,761 1424 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:31] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.004 0.701
+2025-04-30 06:29:32,137 1424 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:29:37,121 9708 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:29:37,121 9708 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:29:37,121 9708 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:29:37,121 9708 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:29:37,267 9708 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:29:37,267 9708 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:29:37,455 9708 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:29:37,486 9708 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:29:37,502 9708 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-04-30 06:29:37,519 9708 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:29:37,522 9708 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-04-30 06:29:38,404 9708 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:29:38,404 9708 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Linea'] to user __system__ #1 via n/a 
+2025-04-30 06:29:38,904 9708 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-04-30 06:29:39,076 1424 INFO ? odoo.service.server: Initiating shutdown 
+2025-04-30 06:29:39,076 1424 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:29:39,232 9708 INFO dashboard odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:29:39,250 1424 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-04-30 06:29:39,451 9708 INFO dashboard odoo.modules.loading: Loading module linea (10/38) 
+2025-04-30 06:29:39,501 9708 INFO dashboard odoo.modules.registry: module linea: creating or updating database tables 
+2025-04-30 06:29:39,548 9708 INFO dashboard odoo.modules.loading: loading linea/security/ir.model.access.csv 
+2025-04-30 06:29:39,548 9708 ERROR dashboard odoo.tools.convert: Import specification does not contain 'id' and we are in init mode, Cannot continue. 
+2025-04-30 06:29:39,548 9708 INFO dashboard odoo.modules.loading: loading linea/views/linea_views.xml 
+2025-04-30 06:29:39,571 9708 INFO dashboard odoo.modules.loading: loading linea/views/menus.xml 
+2025-04-30 06:29:39,584 9708 INFO dashboard odoo.modules.loading: loading linea/views/linea_qweb_views.xml 
+2025-04-30 06:29:39,584 9708 INFO dashboard odoo.modules.loading: loading linea/views/objetivos_views.xml 
+2025-04-30 06:29:39,611 9708 INFO dashboard odoo.addons.base.models.ir_module: module linea: no translation for language es_ES 
+2025-04-30 06:29:39,619 9708 INFO dashboard odoo.modules.loading: Module linea loaded in 0.17s, 146 queries (+146 other) 
+2025-04-30 06:29:39,963 9708 INFO dashboard odoo.modules.loading: 38 modules loaded in 0.73s, 146 queries (+146 extra) 
+2025-04-30 06:29:40,098 9708 INFO dashboard odoo.modules.loading: Model hr.employee.cv.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.employee.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.employee.skill.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.employee.skill.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.resume.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.resume.line.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.skill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.skill.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,099 9708 INFO dashboard odoo.modules.loading: Model hr.skill.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,120 9708 INFO dashboard odoo.modules.loading: Model report.hr_skills.report_employee_cv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2025-04-30 06:29:40,160 9708 INFO dashboard odoo.addons.base.models.ir_model: Deleting 980@ir.model.constraint (linea.constraint_objetivos_timestamp_unico) 
+2025-04-30 06:29:40,168 9708 INFO dashboard odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37895] 
+2025-04-30 06:29:40,168 9708 INFO dashboard odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [980] 
+2025-04-30 06:29:40,168 9708 INFO dashboard odoo.modules.registry: verifying fields for every extended model 
+2025-04-30 06:29:40,465 9708 INFO dashboard odoo.modules.loading: Modules loaded. 
+2025-04-30 06:29:40,465 9708 INFO dashboard odoo.modules.registry: Registry changed, signaling through the database 
+2025-04-30 06:29:40,465 9708 INFO dashboard odoo.modules.registry: Registry loaded in 3.010s 
+2025-04-30 06:29:41,246 8432 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:29:41,246 8432 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:29:41,246 8432 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:29:41,246 8432 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:29:41,384 8432 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:29:41,391 8432 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:29:41,623 8432 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:29:41,786 9708 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:29:41,819 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:41] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.012 0.035
+2025-04-30 06:29:42,229 9708 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:29:42,651 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:42] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 5 0.001 0.116
+2025-04-30 06:29:47,691 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:47] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-04-30 06:29:49,350 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:49] "POST /web/action/load HTTP/1.1" 200 - 6 0.000 0.016
+2025-04-30 06:29:49,667 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:49] "GET /linea/dashboard HTTP/1.1" 200 - 29 0.035 0.045
+2025-04-30 06:29:51,431 9708 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.skill.type 
+2025-04-30 06:29:51,433 9708 ERROR dashboard odoo.addons.base.models.ir_model: Missing model hr.employee.skill.report 
+2025-04-30 06:29:51,439 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 18 0.010 0.015
+2025-04-30 06:29:51,650 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.000
+2025-04-30 06:29:51,918 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.048 0.061
+2025-04-30 06:29:51,918 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 25 0.021 0.092
+2025-04-30 06:29:51,935 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "POST /mail/data HTTP/1.1" 200 - 27 0.051 0.080
+2025-04-30 06:29:51,959 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:51] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:29:52,242 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:52] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.006
+2025-04-30 06:29:52,274 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:52] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.003 0.033
+2025-04-30 06:29:52,608 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:52] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.005
+2025-04-30 06:29:53,884 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:29:53] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.014
+2025-04-30 06:30:40,524 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-04-30 06:30:40,548 9708 INFO dashboard odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-04-30 06:30:40,603 9708 INFO dashboard odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-04-30 06:30:40,611 9708 INFO dashboard odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-04-30 06:30:40,615 9708 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:30:40,616 9708 INFO dashboard odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-04-30 06:30:40,627 9708 INFO dashboard odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-04-30 06:30:40,634 9708 INFO dashboard odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515] 
+2025-04-30 06:30:40,695 9708 INFO dashboard odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-04-30 06:30:40,731 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.207s 
+2025-04-30 06:30:40,733 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-04-30 06:30:40,735 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-04-30 06:34:28,474 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:28] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.014
+2025-04-30 06:34:28,724 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:28] "POST /web/dataset/call_kw/linea/get_views HTTP/1.1" 200 - 19 0.016 0.000
+2025-04-30 06:34:28,799 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:28] "POST /web/dataset/call_kw/linea/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:34:29,523 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:29] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2025-04-30 06:34:31,535 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:31] "POST /web/action/load HTTP/1.1" 200 - 6 0.001 0.016
+2025-04-30 06:34:31,827 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:31] "GET /linea/dashboard HTTP/1.1" 200 - 16 0.022 0.016
+2025-04-30 06:34:34,346 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.004 0.006
+2025-04-30 06:34:34,422 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-04-30 06:34:34,735 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "POST /web/dataset/call_kw/objetivos/get_views HTTP/1.1" 200 - 2 0.000 0.014
+2025-04-30 06:34:34,752 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.000 0.016
+2025-04-30 06:34:34,752 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.016 0.000
+2025-04-30 06:34:34,752 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:34] "POST /mail/data HTTP/1.1" 200 - 17 0.030 0.004
+2025-04-30 06:34:35,069 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:35] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.017
+2025-04-30 06:34:35,069 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:35] "POST /web/dataset/call_kw/objetivos/web_search_read HTTP/1.1" 200 - 2 0.000 0.017
+2025-04-30 06:34:35,069 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:35] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.000
+2025-04-30 06:34:36,643 9708 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:34:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2025-04-30 06:34:40,785 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-04-30 06:34:40,800 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.016s 
+2025-04-30 06:34:40,800 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-04-30 06:34:40,816 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-04-30 06:34:40,816 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.016s 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.000s 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-04-30 06:34:40,832 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.000s 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.000s 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-04-30 06:34:40,847 9708 INFO dashboard odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-04-30 06:38:23,513 9708 INFO dashboard odoo.service.server: Initiating shutdown 
+2025-04-30 06:38:23,513 9708 INFO dashboard odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-04-30 06:38:23,628 9708 INFO dashboard odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-04-30 06:38:26,146 8432 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:38:26,146 8432 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:38:26,178 8432 INFO ? odoo.modules.loading: loading 38 modules... 
+2025-04-30 06:38:26,726 8432 INFO ? odoo.modules.loading: 38 modules loaded in 0.55s, 0 queries (+0 extra) 
+2025-04-30 06:38:26,789 8432 INFO ? odoo.modules.loading: Modules loaded. 
+2025-04-30 06:38:26,789 8432 INFO ? odoo.modules.registry: Registry loaded in 0.674s 
+2025-04-30 06:38:26,789 8432 INFO dashboard odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-04-30 06:38:26,874 8432 INFO dashboard werkzeug: 127.0.0.1 - - [30/Apr/2025 06:38:26] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.050 0.709
+2025-04-30 06:38:27,025 8280 INFO ? odoo: Odoo version 18.0-20250330 
+2025-04-30 06:38:27,025 8280 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-04-30 06:38:27,025 8280 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-04-30 06:38:27,025 8280 INFO ? odoo: database: openpg@localhost:5432 
+2025-04-30 06:38:27,166 8280 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-04-30 06:38:27,166 8280 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-04-30 06:38:27,213 8432 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-04-30 06:38:27,372 8280 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-04-30 06:38:27,401 8280 INFO dashboard odoo.modules.loading: loading 1 modules... 
+2025-04-30 06:38:27,401 8280 INFO dashboard odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-04-30 06:38:27,417 8280 INFO dashboard odoo.modules.loading: updating modules list 
+2025-04-30 06:38:27,431 8280 INFO dashboard odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
